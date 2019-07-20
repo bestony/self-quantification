@@ -1,6 +1,7 @@
 # Summary
 
 * [简介](README.md)
+* 前言
 * 时间量化
     * 软件
         * [TimeTrack.io](time/timetrackio.md)
@@ -32,3 +33,6 @@
     * 情绪
     * 体脂
     * 体检
+* 后记
+* 关于作者
+    * 白宦成

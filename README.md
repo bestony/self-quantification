@@ -1,9 +1,3 @@
-# Gitbook 自动部署 Template
+# 自我量化电子书 
 
-## Feature
-- 使用 Travis CI 自动部署
-- 自动部署至 Github Pages
-- 支持自定义域名
-
-## Usage
-TODO
+[![Build Status](https://travis-ci.com/bestony/self-quantification.svg?branch=master)](https://travis-ci.com/bestony/self-quantification)

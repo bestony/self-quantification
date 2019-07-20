@@ -1,0 +1,33 @@
+language: node_js
+
+node_js:
+  - "8"
+
+cache:
+  directories:
+    - $HOME/.npm
+
+before_install:
+  - export TZ='Asia/Shanghai'
+
+install:
+  - npm install gitbook-cli -g
+  - gitbook install
+
+script:
+  - gitbook build . ./build
+  # - echo "yourdomain.com" >> ./build/CNAME
+
+before_deploy:
+      # Set up git user name and tag this commit
+      - git config --local user.name "robot"
+      - git config --local user.email "robot@localhost"
+      - git tag "$(date +'%Y%m%d%H%M%S')-$(git log --format=%h -1)"
+
+deploy:
+  - provider: pages
+    skip_cleanup: true
+    github_token: $GITHUB_TOKEN
+    local_dir: build
+    on:
+      branch: master

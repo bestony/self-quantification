@@ -1,0 +1,28 @@
+{
+    "title": "自我量化指南",
+    "description": "自我量化路上的指南针",
+    "plugins": [
+        "theme-comscore",
+        "ga",
+        "anchors",
+        "edit-link",
+        "sitemap-general"
+    ],
+    "pluginsConfig": {
+        "edit-link": {
+            "base": "https://github.com/bestony/self-quantification/edit/master",
+            "label": "参与本书贡献"
+        },
+        "sitemap-general": {
+            "prefix": "https://ziwolianghua.com/"
+        },
+        "ga": {
+            "token": "UA-47834775-24"
+        }
+    },
+    "links": {
+        "sidebar": {
+            "联系作者": "mailto:xiqingongzi+lianghua@gmail.com"
+        }
+    }
+}

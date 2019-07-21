@@ -8,7 +8,7 @@
         * [TimeTrack.io](time/timetrackio.md)
         * [aTimelogger](time/atimmelogger.md)
         * [时间块](time/timeblock.md)
-* 情绪量化
+* [情绪量化](emotion/readme.md)
     * 软件
         * [Moodnotes](emotion/moodnotes.md) 
 * 进食量化
@@ -40,5 +40,6 @@
     * 体检
 * [推荐书籍](books.md)
 * 后记
+* [贡献本书](contribute.md)
 * 关于作者
     * [白宦成](authors/bestony.md)

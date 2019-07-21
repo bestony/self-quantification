@@ -7,6 +7,7 @@
 ## 作者信息
 
 - 白宦成(@bestony)
+- GhinYang(@GhinYang)
 
 ## LICENSE 
 

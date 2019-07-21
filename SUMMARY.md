@@ -11,10 +11,10 @@
 * [情绪量化](emotion/readme.md)
     * 软件
         * [Moodnotes](emotion/moodnotes.md) 
-* 进食量化
+* [进食量化](eating/readme.md)
     * 进餐
     * 饮水
-        * WaterReminder
+        * [WaterReminder](eating/waterreminder.md)
 * 睡眠量化
     * 硬件设备
         * Apple Watch

@@ -3,10 +3,12 @@
     "description": "自我量化路上的指南针",
     "plugins": [
         "theme-comscore",
+	"image-captions",
         "ga",
         "anchors",
         "edit-link",
-        "sitemap-general"
+        "sitemap-general",
+        "html5-video"
     ],
     "pluginsConfig": {
         "edit-link": {

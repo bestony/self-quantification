@@ -16,6 +16,7 @@ install:
 
 script:
   - gitbook build . ./build
+  - touch ./build/.nojekyll
 
 before_deploy:
       - git config --local user.name "robot"

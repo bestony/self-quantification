@@ -5,8 +5,7 @@
 * [理论](theory.md)
 * [时间量化](time/readme.md)
     * 软件
-        * [TimeTrack.io](time/timetrackio.md)
-        * [aTimelogger](time/atimmelogger.md)
+        * [TimeTrack.io(aTimelogger)](time/timetrackio.md)
         * [时间块](time/timeblock.md)
 * [情绪量化](emotion/readme.md)
     * 软件
@@ -43,3 +42,4 @@
 * [贡献本书](contribute.md)
 * 关于作者
     * [白宦成](authors/bestony.md)
+    * [涂俊杰](authors/ffeels.md)

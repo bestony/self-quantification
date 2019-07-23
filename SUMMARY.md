@@ -14,9 +14,9 @@
     * 进餐
     * 饮水
         * [WaterReminder](eating/waterreminder.md)
-* 睡眠量化
-    * 硬件设备
-        * Apple Watch
+* [睡眠量化](sleep/readme.md)
+    * 硬件
+        * [Apple Watch](sleep/apple-watch.md)
         * 手环
     * 软件
         * AutoSleep

@@ -19,7 +19,7 @@
         * [Apple Watch](sleep/apple-watch.md)
         * 手环
     * 软件
-        * AutoSleep
+        * [AutoSleep](sleep/autosleep.md)
         * SleepCycle
         * Pillow
 * 穿着量化

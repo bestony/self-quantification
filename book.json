@@ -20,6 +20,9 @@
         },
         "ga": {
             "token": "UA-47834775-24"
+        },
+        "image-captions": {
+            "align": "left"
         }
     },
     "links": {

@@ -23,6 +23,7 @@ jobs:
         run: |
           export TZ='Asia/Shanghai'
           sudo apt-get install calibre fonts-noto-cjk -y
+          npm install graceful-fs --save-dev
       - name: build website
         run: |
           gitbook build . ./build

@@ -17,13 +17,14 @@ jobs:
       - name: setup env to build website
         run: |
           npm install gitbook-cli -g
+          npm install graceful-fs -g
           gitbook install
       - name: setup env to generate file
         if: startsWith(github.ref, 'refs/tags/')
         run: |
           export TZ='Asia/Shanghai'
           sudo apt-get install calibre fonts-noto-cjk -y
-          npm install graceful-fs --save-dev
+         
       - name: build website
         run: |
           gitbook build . ./build

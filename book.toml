@@ -1,0 +1,6 @@
+[book]
+authors = ["白宦成","涂俊杰","GhinYang"]
+language = "zh-Hans"
+multilingual = false
+src = "src"
+title = "自我量化指南 - 给自己的大数据"

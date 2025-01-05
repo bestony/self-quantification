@@ -1,930 +1,257 @@
-
 <!DOCTYPE HTML>
-<html lang="" >
+<html lang="zh-Hans" class="sidebar-visible no-js light">
     <head>
+        <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>理论 · 自我量化指南</title>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>理论 - 自我量化指南 - 给自己的大数据</title>
+
+
+        <!-- Custom HTML head -->
+
         <meta name="description" content="">
-        <meta name="generator" content="GitBook 3.2.3">
-        
-        
-        
-    
-    <link rel="stylesheet" href="gitbook/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
 
-    
-            
-                
-                <link rel="stylesheet" href="gitbook/gitbook-plugin-image-captions/image-captions.css">
-                
-            
-                
-                <link rel="stylesheet" href="gitbook/gitbook-plugin-anchors/plugin.css">
-                
-            
-                
-                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
-                
-            
-                
-                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
-                
-            
-                
-                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
-                
-            
-                
-                <link rel="stylesheet" href="gitbook/gitbook-plugin-theme-comscore/test.css">
-                
-            
-        
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
 
-    
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
 
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
 
-        
-    
-    
-    <meta name="HandheldFriendly" content="true"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
-    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
-
-    
-    <link rel="next" href="time/readme.html" />
-    
-    
-    <link rel="prev" href="preface.html" />
-    
+        <!-- Custom theme stylesheets -->
 
     </head>
     <body>
-        
-<div class="book">
-    <div class="book-summary">
-        
-            
-<div id="book-search-input" role="search">
-    <input type="text" placeholder="Type to search" />
-</div>
-
-            
-                <nav role="navigation">
-                
-
-
-<ul class="summary">
-    
-    
-    
-        
-        <li>
-            <a href="mailto:xiqingongzi+lianghua@gmail.com" target="_blank" class="custom-link">联系作者</a>
-        </li>
-    
-    
-
-    
-    <li class="divider"></li>
-    
-
-    
-        
-        
-    
-        <li class="chapter " data-level="1.1" data-path="./">
-            
-                <a href="./">
-            
-                    
-                    简介
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.2" data-path="preface.html">
-            
-                <a href="preface.html">
-            
-                    
-                    前言
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter active" data-level="1.3" data-path="theory.html">
-            
-                <a href="theory.html">
-            
-                    
-                    理论
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.4" data-path="time/readme.html">
-            
-                <a href="time/readme.html">
-            
-                    
-                    时间量化
-            
-                </a>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="1.4.1" >
-            
-                <span>
-            
-                    
-                    软件
-            
-                </span>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="1.4.1.1" data-path="time/timetrackio.html">
-            
-                <a href="time/timetrackio.html">
-            
-                    
-                    TimeTrack.io(aTimelogger)
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.4.1.2" data-path="time/timeblock.html">
-            
-                <a href="time/timeblock.html">
-            
-                    
-                    时间块
-            
-                </a>
-            
-
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-        <li class="chapter " data-level="1.5" data-path="emotion/readme.html">
-            
-                <a href="emotion/readme.html">
-            
-                    
-                    情绪量化
-            
-                </a>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="1.5.1" >
-            
-                <span>
-            
-                    
-                    软件
-            
-                </span>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="1.5.1.1" data-path="emotion/moodnotes.html">
-            
-                <a href="emotion/moodnotes.html">
-            
-                    
-                    Moodnotes
-            
-                </a>
-            
-
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-        <li class="chapter " data-level="1.6" data-path="eating/readme.html">
-            
-                <a href="eating/readme.html">
-            
-                    
-                    进食量化
-            
-                </a>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="1.6.1" >
-            
-                <span>
-            
-                    
-                    进餐
-            
-                </span>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.6.2" >
-            
-                <span>
-            
-                    
-                    饮水
-            
-                </span>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="1.6.2.1" data-path="eating/waterreminder.html">
-            
-                <a href="eating/waterreminder.html">
-            
-                    
-                    WaterReminder
-            
-                </a>
-            
-
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-        <li class="chapter " data-level="1.7" data-path="sleep/readme.html">
-            
-                <a href="sleep/readme.html">
-            
-                    
-                    睡眠量化
-            
-                </a>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="1.7.1" >
-            
-                <span>
-            
-                    
-                    硬件
-            
-                </span>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="1.7.1.1" data-path="sleep/apple-watch.html">
-            
-                <a href="sleep/apple-watch.html">
-            
-                    
-                    Apple Watch
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.7.1.2" >
-            
-                <span>
-            
-                    
-                    手环
-            
-                </span>
-            
-
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-        <li class="chapter " data-level="1.7.2" >
-            
-                <span>
-            
-                    
-                    软件
-            
-                </span>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="1.7.2.1" data-path="sleep/autosleep.html">
-            
-                <a href="sleep/autosleep.html">
-            
-                    
-                    AutoSleep
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.7.2.2" >
-            
-                <span>
-            
-                    
-                    SleepCycle
-            
-                </span>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.7.2.3" >
-            
-                <span>
-            
-                    
-                    Pillow
-            
-                </span>
-            
-
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-        <li class="chapter " data-level="1.8" >
-            
-                <span>
-            
-                    
-                    穿着量化
-            
-                </span>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="1.8.1" >
-            
-                <span>
-            
-                    
-                    StyleBook
-            
-                </span>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.8.2" >
-            
-                <span>
-            
-                    
-                    简衣橱
-            
-                </span>
-            
-
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-        <li class="chapter " data-level="1.9" >
-            
-                <span>
-            
-                    
-                    健康量化
-            
-                </span>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="1.9.1" >
-            
-                <span>
-            
-                    
-                    硬件
-            
-                </span>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="1.9.1.1" >
-            
-                <span>
-            
-                    
-                    Apple Watch
-            
-                </span>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.9.1.2" >
-            
-                <span>
-            
-                    
-                    手环
-            
-                </span>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.9.1.3" >
-            
-                <span>
-            
-                    
-                    体脂秤
-            
-                </span>
-            
-
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-        <li class="chapter " data-level="1.9.2" >
-            
-                <span>
-            
-                    
-                    软件
-            
-                </span>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="1.9.2.1" >
-            
-                <span>
-            
-                    
-                    Apple 健康
-            
-                </span>
-            
-
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-        <li class="chapter " data-level="1.10" >
-            
-                <span>
-            
-                    
-                    专业手段
-            
-                </span>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="1.10.1" >
-            
-                <span>
-            
-                    
-                    睡眠
-            
-                </span>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.10.2" >
-            
-                <span>
-            
-                    
-                    情绪
-            
-                </span>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.10.3" >
-            
-                <span>
-            
-                    
-                    体脂
-            
-                </span>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.10.4" >
-            
-                <span>
-            
-                    
-                    体检
-            
-                </span>
-            
-
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-        <li class="chapter " data-level="1.11" data-path="books.html">
-            
-                <a href="books.html">
-            
-                    
-                    推荐书籍
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.12" >
-            
-                <span>
-            
-                    
-                    后记
-            
-                </span>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.13" data-path="contribute.html">
-            
-                <a href="contribute.html">
-            
-                    
-                    贡献本书
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.14" >
-            
-                <span>
-            
-                    
-                    关于作者
-            
-                </span>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="1.14.1" data-path="authors/bestony.html">
-            
-                <a href="authors/bestony.html">
-            
-                    
-                    白宦成
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.14.2" data-path="authors/ffeels.html">
-            
-                <a href="authors/ffeels.html">
-            
-                    
-                    涂俊杰
-            
-                </a>
-            
-
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-
-    
-
-    <li class="divider"></li>
-
-    <li>
-        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
-            Published with GitBook
-        </a>
-    </li>
-</ul>
-
-
-                </nav>
-            
-        
-    </div>
-
-    <div class="book-body">
-        
-            <div class="body-inner">
-                
-                    
-
-<div class="book-header" role="navigation">
-    
-
-    <!-- Title -->
-    <h1>
-        <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="." >理论</a>
-    </h1>
-</div>
-
-
-
-
-                    <div class="page-wrapper" tabindex="-1" role="main">
-                        <div class="page-inner">
-                            
-<div id="book-search-results">
-    <div class="search-noresults">
-    
-                                <section class="normal markdown-section">
-                                
-                                <h1 id="&#x7406;&#x8BBA;"><a name="&#x7406;&#x8BBA;" class="plugin-anchor" href="#&#x7406;&#x8BBA;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x7406;&#x8BBA;</h1>
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var html = document.querySelector('html');
+            var sidebar = null;
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="index.html"><strong aria-hidden="true">1.</strong> 简介</a></li><li class="chapter-item expanded "><a href="preface.html"><strong aria-hidden="true">2.</strong> 前言</a></li><li class="chapter-item expanded "><a href="theory.html"><strong aria-hidden="true">3.</strong> 理论</a></li><li class="chapter-item expanded "><a href="time/index.html"><strong aria-hidden="true">4.</strong> 时间量化</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="time/timetrackio.html"><strong aria-hidden="true">4.1.</strong> TimeTrack.io(aTimelogger)</a></li><li class="chapter-item expanded "><a href="time/timeblock.html"><strong aria-hidden="true">4.2.</strong> 时间块</a></li></ol></li><li class="chapter-item expanded "><a href="emotion/index.html"><strong aria-hidden="true">5.</strong> 情绪量化</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="emotion/moodnotes.html"><strong aria-hidden="true">5.1.</strong> Moodnotes</a></li></ol></li><li class="chapter-item expanded "><a href="eating/index.html"><strong aria-hidden="true">6.</strong> 进食量化</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="eating/waterreminder.html"><strong aria-hidden="true">6.1.</strong> WaterReminder</a></li></ol></li><li class="chapter-item expanded "><a href="sleep/index.html"><strong aria-hidden="true">7.</strong> 睡眠量化</a></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">7.1.</strong> 硬件</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="sleep/apple-watch.html"><strong aria-hidden="true">7.1.1.</strong> Apple Watch</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">7.1.2.</strong> 手环</div></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">7.2.</strong> 软件</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="sleep/autosleep.html"><strong aria-hidden="true">7.2.1.</strong> AutoSleep</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">7.2.2.</strong> SleepCycle</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">7.2.3.</strong> Pillow</div></li></ol></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">8.</strong> 穿着量化</div></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">8.1.</strong> StyleBook</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">8.2.</strong> 简衣橱</div></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">9.</strong> 健康量化</div></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">9.1.</strong> 硬件</div></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">9.1.1.</strong> Apple Watch</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">9.1.2.</strong> 手环</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">9.1.3.</strong> 体脂秤</div></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">9.2.</strong> 软件</div></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">9.2.1.</strong> Apple 健康</div></li></ol></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">10.</strong> 专业手段</div></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">10.1.</strong> 睡眠</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">10.2.</strong> 情绪</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">10.3.</strong> 体脂</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">10.4.</strong> 体检</div></li></ol></li><li class="chapter-item expanded "><a href="books.html"><strong aria-hidden="true">11.</strong> 推荐书籍</a></li><li class="chapter-item expanded "><a href="contribute.html"><strong aria-hidden="true">12.</strong> 贡献本书</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">13.</strong> 关于作者</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="authors/bestony.html"><strong aria-hidden="true">13.1.</strong> 白宦成</a></li><li class="chapter-item expanded "><a href="authors/ffeels.html"><strong aria-hidden="true">13.2.</strong> 涂俊杰</a></li><li class="chapter-item expanded "><a href="authors/ghinyang.html"><strong aria-hidden="true">13.3.</strong> GhinYang</a></li></ol></li></ol>
+                <ol class="chapter">
+                    <li class="chapter-item expanded "><a href="https://beian.miit.gov.cn/" target="_blank">京ICP备2022003750号-3</a></li>
+                </ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">自我量化指南 - 给自己的大数据</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="理论"><a class="header" href="#理论">理论</a></h1>
 <blockquote>
-<p>&#x672C;&#x6587;&#x4F5C;&#x8005;&#xFF1A;&#x767D;&#x5BA6;&#x6210;</p>
+<p>本文作者：白宦成</p>
 </blockquote>
-<h2 id="&#x505A;&#x81EA;&#x6211;&#x91CF;&#x5316;&#x4E0D;&#x7D2F;&#x4E48;&#xFF1F;"><a name="&#x505A;&#x81EA;&#x6211;&#x91CF;&#x5316;&#x4E0D;&#x7D2F;&#x4E48;&#xFF1F;" class="plugin-anchor" href="#&#x505A;&#x81EA;&#x6211;&#x91CF;&#x5316;&#x4E0D;&#x7D2F;&#x4E48;&#xFF1F;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x505A;&#x81EA;&#x6211;&#x91CF;&#x5316;&#x4E0D;&#x7D2F;&#x4E48;&#xFF1F;</h2>
-<p>&#x8C08;&#x5230;&#x505A;&#x81EA;&#x6211;&#x91CF;&#x5316;&#xFF0C;&#x5927;&#x90E8;&#x5206;&#x4EBA;&#x7684;&#x7B2C;&#x4E00;&#x53CD;&#x5E94;&#x5C31;&#x662F;&#xFF0C;&#x505A;&#x81EA;&#x6211;&#x91CF;&#x5316;&#x4E0D;&#x7D2F;&#x4E48;&#xFF1F;&#x4F46;&#x662F;&#xFF0C;&#x5176;&#x5B9E;&#x505A;&#x81EA;&#x6211;&#x91CF;&#x5316;&#x8FDC;&#x6CA1;&#x6709;&#x6211;&#x4EEC;&#x60F3;&#x8C61;&#x4E2D;&#x7684;&#x90A3;&#x4E48;&#x7D2F;&#x3002;</p>
-<p>&#x5728;&#x8FDB;&#x884C;&#x81EA;&#x6211;&#x91CF;&#x5316;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x7EDD;&#x5927;&#x591A;&#x6570;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x90FD;&#x662F;&#x8FDB;&#x884C;&#x201C;&#x88AB;&#x52A8;&#x6570;&#x636E;&#x6536;&#x96C6;&#x201C;&#xFF0C;&#x4E5F;&#x5C31;&#x662F;&#x4F60;&#x4E0D;&#x9700;&#x8981;&#x505A;&#x4EFB;&#x4F55;&#x4E8B;&#x60C5;&#xFF0C;&#x4F1A;&#x81EA;&#x52A8;&#x8FDB;&#x884C;&#x6570;&#x636E;&#x6536;&#x96C6;&#x3002;</p>
-<p>&#x771F;&#x6B63;&#x9700;&#x8981;&#x6211;&#x4EEC;&#x8FDB;&#x884C;&#x4E3B;&#x52A8;&#x6570;&#x636E;&#x6536;&#x96C6;&#x7684;&#xFF0C;&#x5E76;&#x4E0D;&#x591A;&#x3002;</p>
-<h2 id="&#x6211;&#x4EEC;&#x4E3A;&#x4EC0;&#x4E48;&#x8981;&#x505A;&#x81EA;&#x6211;&#x91CF;&#x5316;&#xFF1F;"><a name="&#x6211;&#x4EEC;&#x4E3A;&#x4EC0;&#x4E48;&#x8981;&#x505A;&#x81EA;&#x6211;&#x91CF;&#x5316;&#xFF1F;" class="plugin-anchor" href="#&#x6211;&#x4EEC;&#x4E3A;&#x4EC0;&#x4E48;&#x8981;&#x505A;&#x81EA;&#x6211;&#x91CF;&#x5316;&#xFF1F;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x6211;&#x4EEC;&#x4E3A;&#x4EC0;&#x4E48;&#x8981;&#x505A;&#x81EA;&#x6211;&#x91CF;&#x5316;&#xFF1F;</h2>
+<h2 id="做自我量化不累么"><a class="header" href="#做自我量化不累么">做自我量化不累么？</a></h2>
+<p>谈到做自我量化，大部分人的第一反应就是，做自我量化不累么？但是，其实做自我量化远没有我们想象中的那么累。</p>
+<p>在进行自我量化的时候，绝大多数的时候，都是进行“被动数据收集“，也就是你不需要做任何事情，会自动进行数据收集。</p>
+<p>真正需要我们进行主动数据收集的，并不多。</p>
+<h2 id="我们为什么要做自我量化"><a class="header" href="#我们为什么要做自我量化">我们为什么要做自我量化？</a></h2>
 <blockquote>
-<p>The unexamined life is not worth living. </p>
-<p>&#x1F41; &#x3B4;&#x1F72; &#x1F00;&#x3BD;&#x3B5;&#x3BE;&#x3AD;&#x3C4;&#x3B1;&#x3C3;&#x3C4;&#x3BF;&#x3C2; &#x3B2;&#x3AF;&#x3BF;&#x3C2; &#x3BF;&#x1F50; &#x3B2;&#x3B9;&#x3C9;&#x3C4;&#x1F78;&#x3C2; &#x1F00;&#x3BD;&#x3B8;&#x3C1;&#x3CE;&#x3C0;&#x1FF3; .</p>
-<p>&#x672A;&#x7ECF;&#x53CD;&#x601D;&#x81EA;&#x7701;&#x7684;&#x4EBA;&#x751F;&#x6CA1;&#x6709;&#x610F;&#x4E49;&#x3002;</p>
-<p>&#x2014;&#x2014; &#x82CF;&#x683C;&#x62C9;&#x5E95;</p>
+<p>The unexamined life is not worth living.</p>
+<p>ὁ δὲ ἀνεξέταστος βίος οὐ βιωτὸς ἀνθρώπῳ .</p>
+<p>未经反思自省的人生没有意义。</p>
+<p>—— 苏格拉底</p>
 </blockquote>
-<p>&#x5982;&#x679C;&#x8BF4;&#xFF0C;&#x81EA;&#x6211;&#x91CF;&#x5316;&#x7684;&#x610F;&#x4E49;&#x662F;&#x4EC0;&#x4E48;&#xFF0C;&#x90A3;&#x5927;&#x6982;&#x5C31;&#x662F;&#x6211;&#x4EEC;&#x8981;<strong>&#x501F;&#x52A9;&#x81EA;&#x6211;&#x91CF;&#x5316;&#xFF0C;&#x6765;&#x4F18;&#x5316;&#x81EA;&#x5DF1;&#x7684;&#x751F;&#x6D3B;&#xFF0C;&#x8BA9;&#x81EA;&#x5DF1;&#x7684;&#x751F;&#x6D3B;&#x671D;&#x7740;&#x6211;&#x4EEC;&#x60F3;&#x8981;&#x7684;&#x65B9;&#x5411;&#x53BB;&#x53D1;&#x5C55;</strong>&#x3002;</p>
-<p><strong>&#x81EA;&#x6211;&#x91CF;&#x5316;&#x7684;&#x8FC7;&#x7A0B;&#xFF0C;&#x5B9E;&#x9645;&#x4E0A;&#x662F;&#x4E00;&#x4E2A;&#x201C;&#x6536;&#x96C6;&#x201C;&#x2014;&#x2014;&#x201C;&#x5206;&#x6790;&#x201D;&#x2014;&#x2014;&#x201C;&#x5B9E;&#x8DF5;&#x201D;&#x7684;&#x6D41;</strong>&#xFF0C;&#x6211;&#x4EEC;&#x9700;&#x8981;&#x5C06;&#x81EA;&#x5DF1;&#x7F6E;&#x4E8E;&#x8FD9;&#x4E2A;&#x6D41;&#x4E2D;&#xFF0C;&#x4E0D;&#x65AD;&#x7684;&#x5FAA;&#x73AF;&#xFF0C;&#x6700;&#x7EC8;&#x624D;&#x80FD;&#x5B8C;&#x6210;&#x81EA;&#x6211;&#x91CF;&#x5316;&#xFF0C;&#x5B9E;&#x73B0;&#x81EA;&#x6211;&#x91CF;&#x5316;&#x7684;&#x610F;&#x4E49;&#x3002;</p>
-<figure id="fig1.3.1"><img src="../images/theory-flow.jpeg" alt="&#x81EA;&#x6211;&#x91CF;&#x5316;&#x5DE5;&#x4F5C;&#x6D41;"><figcaption class="left">Figure: &#x81EA;&#x6211;&#x91CF;&#x5316;&#x5DE5;&#x4F5C;&#x6D41;</figcaption></figure>
-<p>&#x6211;&#x4EEC;&#x9700;&#x8981;&#x5148;&#x5B8C;&#x6210;&#x6536;&#x96C6;&#x6570;&#x636E;&#x7684;&#x8FC7;&#x7A0B;&#xFF0C;&#x901A;&#x8FC7;&#x6570;&#x636E;&#x7684;&#x6536;&#x96C6;&#xFF0C;&#x4ECE;&#x800C;&#x5F97;&#x77E5;&#x6211;&#x4EEC;&#x7684;&#x57FA;&#x7840;&#x4FE1;&#x606F;&#x3002;&#x5018;&#x82E5;&#x6CA1;&#x6709;&#x57FA;&#x7840;&#x7684;&#x6570;&#x636E;&#x548C;&#x4FE1;&#x606F;&#xFF0C;&#x4F60;&#x53C8;&#x8C08;&#x4F55;&#x4F18;&#x5316;&#x5462;&#xFF1F;</p>
-<p>&#x5F53;&#x4F60;&#x62FF;&#x5230;&#x4E86;&#x6570;&#x636E;&#x4EE5;&#x540E;&#xFF0C;&#x4E0B;&#x4E00;&#x6B65;&#x5C31;&#x8981;&#x8FDB;&#x884C;&#x5206;&#x6790;&#xFF0C;&#x5BF9;&#x4F60;&#x5DF2;&#x6709;&#x7684;&#x6570;&#x636E;&#x5206;&#x6790;&#xFF0C;&#x770B;&#x770B;&#x5982;&#x679C;&#x60F3;&#x8981;&#x8FBE;&#x5230;&#x4F60;&#x7684;&#x76EE;&#x6807;&#xFF0C;&#x4F60;&#x9700;&#x8981;&#x505A;&#x54EA;&#x4E9B;&#x4E8B;&#x60C5;&#x3002;&#x6574;&#x7406;&#x51FA;&#x8FD9;&#x4E9B;&#x610F;&#x89C1;&#xFF0C;&#x505A;&#x4E3A;&#x81EA;&#x5DF1;&#x4E0B;&#x4E00;&#x6B65;&#x7EE7;&#x7EED;&#x8FDB;&#x884C;&#x7684;&#x6307;&#x5BFC;&#x610F;&#x89C1;&#x3002;</p>
-<p>&#x7136;&#x540E;&#xFF0C;&#x4F60;&#x9700;&#x8981;&#x57FA;&#x4E8E;&#x5728;&#x4E0A;&#x4E00;&#x6B65;&#x6570;&#x636E;&#x5206;&#x6790;&#x5F97;&#x51FA;&#x7684;&#x7ED3;&#x679C;&#xFF0C;&#x53BB;&#x6267;&#x884C;&#x6307;&#x5BFC;&#x610F;&#x89C1;&#xFF0C;&#x6539;&#x8FDB;&#x81EA;&#x5DF1;&#x7684;&#x751F;&#x6D3B;&#x3002;&#x5728;&#x5B9E;&#x8DF5;&#x7684;&#x8FC7;&#x7A0B;&#x4E2D;&#xFF0C;&#x4F60;&#x9700;&#x8981;&#x7EE7;&#x7EED;&#x6536;&#x96C6;&#x6570;&#x636E;&#xFF0C;&#x4E3A;&#x4E0B;&#x4E00;&#x6B21;&#x7684;&#x5206;&#x6790;&#x505A;&#x51C6;&#x5907;&#x3002;</p>
-<p>&#x4E3E;&#x4E2A;&#x4F8B;&#x5B50;&#x6765;&#x8BF4;&#xFF0C;&#x6211;&#x4E3A;&#x4EC0;&#x4E48;&#x8981;&#x8FDB;&#x884C;&#x65F6;&#x95F4;&#x5206;&#x6790;&#x5462;&#xFF1F;&#x56E0;&#x4E3A;&#x76EE;&#x524D;&#x5904;&#x5728;&#x6210;&#x957F;&#x671F;&#x7684;&#x6211;&#xFF0C;&#x5E0C;&#x671B;&#x81EA;&#x5DF1;&#x7684;&#x65F6;&#x95F4;&#x90FD;&#x653E;&#x5728;&#x81EA;&#x6211;&#x63D0;&#x5347;&#x65B9;&#x9762;&#x7684;&#x4E8B;&#x60C5;&#x4E0A;&#xFF0C;&#x8FD9;&#x6837;&#x6211;&#x5C31;&#x9700;&#x8981;&#x63A7;&#x5236;&#x81EA;&#x5DF1;&#x7684;&#x5A31;&#x4E50;&#x65F6;&#x95F4;&#xFF0C;&#x63D0;&#x5347;&#x81EA;&#x5DF1;&#x7684;&#x5B66;&#x4E60;&#x65F6;&#x95F4;&#x3002;&#x6211;&#x901A;&#x8FC7;&#x5B9A;&#x671F;&#x7684;&#x65F6;&#x95F4;&#x5206;&#x6790;&#xFF0C;&#x6765;&#x8C03;&#x6574;&#x81EA;&#x5DF1;&#x7684;&#x5B66;&#x4E60;&#x548C;&#x5A31;&#x4E50;&#x7684;&#x65F6;&#x95F4;&#xFF0C;&#x907F;&#x514D;&#x8BA9;&#x81EA;&#x5DF1;&#x538B;&#x529B;&#x8FC7;&#x5927;&#xFF0C;&#x6216;&#x8005;&#x5B66;&#x4E60;&#x61C8;&#x6020;&#x3002;</p>
-<h2 id="&#x81EA;&#x6211;&#x91CF;&#x5316;&#x7684;&#x5173;&#x952E;&#x5728;&#x4E8E;&#x4EC0;&#x4E48;&#xFF1F;"><a name="&#x81EA;&#x6211;&#x91CF;&#x5316;&#x7684;&#x5173;&#x952E;&#x5728;&#x4E8E;&#x4EC0;&#x4E48;&#xFF1F;" class="plugin-anchor" href="#&#x81EA;&#x6211;&#x91CF;&#x5316;&#x7684;&#x5173;&#x952E;&#x5728;&#x4E8E;&#x4EC0;&#x4E48;&#xFF1F;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x81EA;&#x6211;&#x91CF;&#x5316;&#x7684;&#x5173;&#x952E;&#x5728;&#x4E8E;&#x4EC0;&#x4E48;&#xFF1F;</h2>
-<p>&#x5982;&#x540C;&#x8BB0;&#x8D26;&#x7684;&#x6838;&#x5FC3;&#x662F;&#x5206;&#x6790;&#x8D26;&#x76EE;&#x4E00;&#x6837;&#xFF0C;&#x81EA;&#x6211;&#x91CF;&#x5316;&#x7684;&#x6838;&#x5FC3;&#x4E5F;&#x662F;&#x8FDB;&#x884C;&#x6570;&#x636E;&#x5206;&#x6790;&#xFF0C;&#x4F60;&#x6240;&#x8BB0;&#x5F55;&#x7684;&#x6570;&#x636E;&#xFF0C;&#x5982;&#x679C;&#x4E0D;&#x505A;&#x4EFB;&#x4F55;&#x5206;&#x6790;&#xFF0C;&#x5BF9;&#x4F60;&#x7684;&#x751F;&#x6D3B;&#x6CA1;&#x6709;&#x4EFB;&#x4F55;&#x6307;&#x5BFC;&#x610F;&#x4E49;&#xFF0C;&#x53EA;&#x6709;&#x4F60;&#x5BF9;&#x4F60;&#x7684;&#x6570;&#x636E;&#x8FDB;&#x884C;&#x5206;&#x6790;&#x3001;&#x68B3;&#x7406;&#xFF0C;&#x5E76;&#x968F;&#x7740;&#x6570;&#x636E;&#x8FDB;&#x884C;&#x8C03;&#x6574;&#xFF0C;&#x624D;&#x80FD;&#x591F;&#x66F4;&#x597D;&#x7684;&#x6307;&#x5BFC;&#x4F60;&#x751F;&#x6D3B;&#x3002;</p>
-<h2 id="&#x81EA;&#x6211;&#x91CF;&#x5316;&#x7684;&#x5206;&#x6790;&#x9891;&#x7387;&#x5E94;&#x8BE5;&#x662F;&#x4EC0;&#x4E48;&#x6837;&#x7684;&#xFF1F;"><a name="&#x81EA;&#x6211;&#x91CF;&#x5316;&#x7684;&#x5206;&#x6790;&#x9891;&#x7387;&#x5E94;&#x8BE5;&#x662F;&#x4EC0;&#x4E48;&#x6837;&#x7684;&#xFF1F;" class="plugin-anchor" href="#&#x81EA;&#x6211;&#x91CF;&#x5316;&#x7684;&#x5206;&#x6790;&#x9891;&#x7387;&#x5E94;&#x8BE5;&#x662F;&#x4EC0;&#x4E48;&#x6837;&#x7684;&#xFF1F;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x81EA;&#x6211;&#x91CF;&#x5316;&#x7684;&#x5206;&#x6790;&#x9891;&#x7387;&#x5E94;&#x8BE5;&#x662F;&#x4EC0;&#x4E48;&#x6837;&#x7684;&#xFF1F;</h2>
-<p>&#x81EA;&#x6211;&#x91CF;&#x5316;&#x7684;&#x6838;&#x5FC3;&#x5305;&#x62EC;&#x4E86;&#x6570;&#x636E;&#x7684;&#x5206;&#x6790;&#xFF0C;&#x90A3;&#x4E48;&#x6211;&#x4EEC;&#x5E94;&#x8BE5;&#x4EE5;&#x4F55;&#x7B49;&#x7684;&#x9891;&#x7387;&#x6765;&#x8FDB;&#x884C;&#x5206;&#x6790;&#x5462;&#xFF1F;</p>
-<p>&#x4F60;&#x5E94;&#x8BE5;&#x7ED3;&#x5408;&#x81EA;&#x5DF1;&#x7684;&#x60C5;&#x51B5;&#x6765;&#x8FDB;&#x884C;&#x5206;&#x6790;&#x3002;</p>
+<p>如果说，自我量化的意义是什么，那大概就是我们要<strong>借助自我量化，来优化自己的生活，让自己的生活朝着我们想要的方向去发展</strong>。</p>
+<p><strong>自我量化的过程，实际上是一个“收集“——“分析”——“实践”的流</strong>，我们需要将自己置于这个流中，不断的循环，最终才能完成自我量化，实现自我量化的意义。</p>
+<p><img src="https://postimg.aliavv.com/m1/ulw750.jpeg" alt="" /></p>
+<p>我们需要先完成收集数据的过程，通过数据的收集，从而得知我们的基础信息。倘若没有基础的数据和信息，你又谈何优化呢？</p>
+<p>当你拿到了数据以后，下一步就要进行分析，对你已有的数据分析，看看如果想要达到你的目标，你需要做哪些事情。整理出这些意见，做为自己下一步继续进行的指导意见。</p>
+<p>然后，你需要基于在上一步数据分析得出的结果，去执行指导意见，改进自己的生活。在实践的过程中，你需要继续收集数据，为下一次的分析做准备。</p>
+<p>举个例子来说，我为什么要进行时间分析呢？因为目前处在成长期的我，希望自己的时间都放在自我提升方面的事情上，这样我就需要控制自己的娱乐时间，提升自己的学习时间。我通过定期的时间分析，来调整自己的学习和娱乐的时间，避免让自己压力过大，或者学习懈怠。</p>
+<h2 id="自我量化的关键在于什么"><a class="header" href="#自我量化的关键在于什么">自我量化的关键在于什么？</a></h2>
+<p>如同记账的核心是分析账目一样，自我量化的核心也是进行数据分析，你所记录的数据，如果不做任何分析，对你的生活没有任何指导意义，只有你对你的数据进行分析、梳理，并随着数据进行调整，才能够更好的指导你生活。</p>
+<h2 id="自我量化的分析频率应该是什么样的"><a class="header" href="#自我量化的分析频率应该是什么样的">自我量化的分析频率应该是什么样的？</a></h2>
+<p>自我量化的核心包括了数据的分析，那么我们应该以何等的频率来进行分析呢？</p>
+<p>你应该结合自己的情况来进行分析。</p>
 <ol>
-<li><strong>&#x8FD9;&#x4E2A;&#x9891;&#x7387;&#x5FC5;&#x987B;&#x53EF;&#x4EE5;&#x62FF;&#x5230;&#x8DB3;&#x591F;&#x591A;&#x7684;&#x6570;&#x636E;</strong>&#xFF1A;&#x8FC7;&#x5C11;&#x7684;&#x6570;&#x636E;&#x662F;&#x65E0;&#x6CD5;&#x5B8C;&#x6210;&#x6570;&#x636E;&#x5206;&#x6790;&#x7684;&#xFF0C;&#x96F6;&#x96F6;&#x6563;&#x6563;&#x7684;&#x51E0;&#x4E2A;&#x6570;&#x636E;&#x70B9;&#x4E0D;&#x8DB3;&#x4EE5;&#x5206;&#x6790;&#x51FA;&#x4E00;&#x4E2A;&#x201C;&#x666E;&#x9002;&#x201D;&#x7684;&#x89C4;&#x5F8B;&#x7684;&#xFF0C;&#x4F60;&#x9700;&#x8981;&#x6709;&#x8DB3;&#x591F;&#x7684;&#x6570;&#x636E;&#xFF0C;&#x6765;&#x5206;&#x6790;&#x4F60;&#x81EA;&#x5DF1;&#x7684;&#x89C4;&#x5F8B;&#x3002;</li>
-<li><strong>&#x8FD9;&#x4E2A;&#x9891;&#x7387;&#x5E94;&#x8BE5;&#x4E0D;&#x80FD;&#x5F71;&#x54CD;&#x4F60;&#x7684;&#x5206;&#x6790;&#x65F6;&#x95F4;</strong>&#xFF1A;&#x5982;&#x679C;&#x4F60;&#x79EF;&#x6512;&#x4E86;&#x592A;&#x591A;&#x7684;&#x6570;&#x636E;&#xFF0C;&#x53EF;&#x80FD;&#x4F1A;&#x5BFC;&#x81F4;&#x5355;&#x6B21;&#x7684;&#x5206;&#x6790;&#x65F6;&#x95F4;&#x592A;&#x957F;&#xFF0C;&#x4F60;&#x5E94;&#x8BE5;&#x63A7;&#x5236;&#x4E00;&#x4E0B;&#x81EA;&#x5DF1;&#x7684;&#x5206;&#x6790;&#x65F6;&#x95F4;&#xFF0C;&#x5C3D;&#x53EF;&#x80FD;&#x7684;&#x63A7;&#x5236;&#x5728;&#x534A;&#x5C0F;&#x65F6;&#x5230;&#x4E00;&#x5C0F;&#x65F6;&#x4E4B;&#x95F4;&#x3002;</li>
-<li><strong>&#x5206;&#x6790;&#x662F;&#x624B;&#x6BB5;&#xFF0C;&#x4E0D;&#x662F;&#x76EE;&#x7684;</strong>&#xFF1A;&#x5206;&#x6790;&#x7684;&#x65F6;&#x95F4;&#x4E0D;&#x80FD;&#x592A;&#x957F;&#xFF0C;&#x5982;&#x679C;&#x592A;&#x957F;&#x7684;&#x8BDD;&#xFF0C;&#x4F60;&#x5C31;&#x8981;&#x8003;&#x8651;&#x4E00;&#x4E0B;&#xFF0C;&#x81EA;&#x5DF1;&#x662F;&#x4E0D;&#x662F;&#x4E3A;&#x4E86;&#x5206;&#x6790;&#x800C;&#x5206;&#x6790;&#xFF1F;</li>
+<li><strong>这个频率必须可以拿到足够多的数据</strong>：过少的数据是无法完成数据分析的，零零散散的几个数据点不足以分析出一个“普适”的规律的，你需要有足够的数据，来分析你自己的规律。</li>
+<li><strong>这个频率应该不能影响你的分析时间</strong>：如果你积攒了太多的数据，可能会导致单次的分析时间太长，你应该控制一下自己的分析时间，尽可能的控制在半小时到一小时之间。</li>
+<li><strong>分析是手段，不是目的</strong>：分析的时间不能太长，如果太长的话，你就要考虑一下，自己是不是为了分析而分析？</li>
 </ol>
 
-                                
-                                </section>
-                            
-    </div>
-    <div class="search-results">
-        <div class="has-results">
-            
-            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
-            <ul class="search-results-list"></ul>
-            
-        </div>
-        <div class="no-results">
-            
-            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
-            
-        </div>
-    </div>
-</div>
+                    </main>
 
-                        </div>
-                    </div>
-                
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="preface.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="time/index.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
             </div>
 
-            
-                
-                <a href="preface.html" class="navigation navigation-prev " aria-label="Previous page: 前言">
-                    <i class="fa fa-angle-left"></i>
-                </a>
-                
-                
-                <a href="time/readme.html" class="navigation navigation-next " aria-label="Next page: 时间量化">
-                    <i class="fa fa-angle-right"></i>
-                </a>
-                
-            
-        
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="preface.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="time/index.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js"></script>
+        <script src="mark.min.js"></script>
+        <script src="searcher.js"></script>
+
+        <script src="clipboard.min.js"></script>
+        <script src="highlight.js"></script>
+        <script src="book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
     </div>
-
-    <script>
-        var gitbook = gitbook || [];
-        gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"理论","level":"1.3","depth":1,"next":{"title":"时间量化","level":"1.4","depth":1,"path":"time/readme.md","ref":"time/readme.md","articles":[{"title":"软件","level":"1.4.1","depth":2,"ref":"","articles":[{"title":"TimeTrack.io(aTimelogger)","level":"1.4.1.1","depth":3,"path":"time/timetrackio.md","ref":"time/timetrackio.md","articles":[]},{"title":"时间块","level":"1.4.1.2","depth":3,"path":"time/timeblock.md","ref":"time/timeblock.md","articles":[]}]}]},"previous":{"title":"前言","level":"1.2","depth":1,"path":"preface.md","ref":"preface.md","articles":[]},"dir":"ltr"},"config":{"plugins":["theme-comscore","image-captions","ga","anchors","edit-link","sitemap-general","html5-video"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sitemap-general":{"prefix":"https://ziwolianghua.com/"},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"theme-comscore":{},"html5-video":{},"ga":{"configuration":"auto","token":"UA-47834775-24"},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"edit-link":{"label":"参与本书贡献","base":"https://github.com/bestony/self-quantification/edit/master"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchors":{},"image-captions":{"align":"left","variable_name":"_pictures"}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{"_pictures":[{"backlink":"index.html#fig1.1.1","level":"1.1","align":"left","list_caption":"Figure: Build Status","alt":"Build Status","nro":1,"url":"https://travis-ci.com/bestony/self-quantification.svg?branch=master","index":1,"caption_template":"Figure: _CAPTION_","label":"Build Status","attributes":{},"skip":false,"key":"1.1.1"},{"backlink":"index.html#fig1.1.2","level":"1.1","align":"left","list_caption":"Figure: 知识共享许可协议","alt":"知识共享许可协议","nro":2,"url":"https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png","index":2,"caption_template":"Figure: _CAPTION_","label":"知识共享许可协议","attributes":{},"skip":false,"key":"1.1.2"},{"backlink":"theory.html#fig1.3.1","level":"1.3","align":"left","list_caption":"Figure: 自我量化工作流","alt":"自我量化工作流","nro":3,"url":"../images/theory-flow.jpeg","index":1,"caption_template":"Figure: _CAPTION_","label":"自我量化工作流","attributes":{},"skip":false,"key":"1.3.1"},{"backlink":"time/timetrackio.html#fig1.4.1.1.1","level":"1.4.1.1","align":"left","list_caption":"Figure: aTimelogger 与 TimeTrack 的对比","alt":"aTimelogger 与 TimeTrack 的对比","nro":4,"url":"../images/time-timetrack-compare.jpg","index":1,"caption_template":"Figure: _CAPTION_","label":"aTimelogger 与 TimeTrack 的对比","attributes":{},"skip":false,"key":"1.4.1.1.1"},{"backlink":"time/timetrackio.html#fig1.4.1.1.2","level":"1.4.1.1","align":"left","list_caption":"Figure: Play Store","alt":"Play Store","nro":5,"url":"../images/time-timetrack-playstore.png","index":2,"caption_template":"Figure: _CAPTION_","label":"Play Store","attributes":{},"skip":false,"key":"1.4.1.1.2"},{"backlink":"time/timetrackio.html#fig1.4.1.1.3","level":"1.4.1.1","align":"left","list_caption":"Figure: App Store","alt":"App Store","nro":6,"url":"../images/time-timetrack-appstore.png","index":3,"caption_template":"Figure: _CAPTION_","label":"App Store","attributes":{},"skip":false,"key":"1.4.1.1.3"},{"backlink":"time/timetrackio.html#fig1.4.1.1.4","level":"1.4.1.1","align":"left","list_caption":"Figure: 我的分类截图","alt":"我的分类截图","nro":7,"url":"../images/time-timetrack-category.png","index":4,"caption_template":"Figure: _CAPTION_","label":"我的分类截图","attributes":{},"skip":false,"key":"1.4.1.1.4"},{"backlink":"time/timetrackio.html#fig1.4.1.1.5","level":"1.4.1.1","align":"left","list_caption":"Figure: 我的分类层级对应关系","alt":"我的分类层级对应关系","nro":8,"url":"../images/time-timetrack-relantion.jpg","index":5,"caption_template":"Figure: _CAPTION_","label":"我的分类层级对应关系","attributes":{},"skip":false,"key":"1.4.1.1.5"},{"backlink":"time/timetrackio.html#fig1.4.1.1.6","level":"1.4.1.1","align":"left","list_caption":"Figure: 活动定义表","alt":"活动定义表","nro":9,"url":"../images/time-timetrack-define.jpg","index":6,"caption_template":"Figure: _CAPTION_","label":"活动定义表","attributes":{},"skip":false,"key":"1.4.1.1.6"},{"backlink":"time/timetrackio.html#fig1.4.1.1.7","level":"1.4.1.1","align":"left","list_caption":"Figure: 时薪走势","alt":"时薪走势","nro":10,"url":"../images/time-timetrack-pay.png","index":7,"caption_template":"Figure: _CAPTION_","label":"时薪走势","attributes":{},"skip":false,"key":"1.4.1.1.7"},{"backlink":"time/timetrackio.html#fig1.4.1.1.8","level":"1.4.1.1","align":"left","list_caption":"Figure: 时薪对比","alt":"时薪对比","nro":11,"url":"../images/time-timetrack-pay-compare.png","index":8,"caption_template":"Figure: _CAPTION_","label":"时薪对比","attributes":{},"skip":false,"key":"1.4.1.1.8"},{"backlink":"time/timetrackio.html#fig1.4.1.1.9","level":"1.4.1.1","align":"left","list_caption":"Figure: TimeTrack 用时","alt":"TimeTrack 用时","nro":12,"url":"../images/time-timetrack-phonescreen.png","index":9,"caption_template":"Figure: _CAPTION_","label":"TimeTrack 用时","attributes":{},"skip":false,"key":"1.4.1.1.9"},{"backlink":"time/timeblock.html#fig1.4.1.2.1","level":"1.4.1.2","align":"left","list_caption":"Figure: Apple store 内搜索“时间块”","alt":"Apple store 内搜索“时间块”","nro":13,"url":"../images/time-timeblock-appstore.png","index":1,"caption_template":"Figure: _CAPTION_","label":"Apple store 内搜索“时间块”","attributes":{},"skip":false,"key":"1.4.1.2.1"},{"backlink":"time/timeblock.html#fig1.4.1.2.2","level":"1.4.1.2","align":"left","list_caption":"Figure: 左侧为完整版时间块，右侧为青春版时间块","alt":"左侧为完整版时间块，右侧为青春版时间块","nro":14,"url":"../images/time-timeblock-compare.jpeg","index":2,"caption_template":"Figure: _CAPTION_","label":"左侧为完整版时间块，右侧为青春版时间块","attributes":{},"skip":false,"key":"1.4.1.2.2"},{"backlink":"emotion/moodnotes.html#fig1.5.1.1.1","level":"1.5.1.1","align":"left","list_caption":"Figure: Moodnotes 的七个等级","alt":"Moodnotes 的七个等级","nro":15,"url":"../images/emotion-moodnotes-level.jpeg","index":1,"caption_template":"Figure: _CAPTION_","label":"Moodnotes 的七个等级","attributes":{},"skip":false,"key":"1.5.1.1.1"},{"backlink":"emotion/moodnotes.html#fig1.5.1.1.2","level":"1.5.1.1","align":"left","list_caption":"Figure: Moodnotes 的 Moodtrends 功能","alt":"Moodnotes 的 Moodtrends 功能","nro":16,"url":"../images/emotion-moodnotes-moodtrends.png","index":2,"caption_template":"Figure: _CAPTION_","label":"Moodnotes 的 Moodtrends 功能","attributes":{},"skip":false,"key":"1.5.1.1.2"},{"backlink":"emotion/moodnotes.html#fig1.5.1.1.3","level":"1.5.1.1","align":"left","list_caption":"Figure: Moodnotes 的 Insight 功能","alt":"Moodnotes 的 Insight 功能","nro":17,"url":"../images/emotion-moodnotes-insight.jpeg","index":3,"caption_template":"Figure: _CAPTION_","label":"Moodnotes 的 Insight 功能","attributes":{},"skip":false,"key":"1.5.1.1.3"},{"backlink":"eating/waterreminder.html#fig1.6.2.1.1","level":"1.6.2.1","align":"left","list_caption":"Figure: WaterReminder 设置饮水目标","alt":"WaterReminder 设置饮水目标","nro":18,"url":"../images/eating-waterreminder-init.jpeg","index":1,"caption_template":"Figure: _CAPTION_","label":"WaterReminder 设置饮水目标","attributes":{},"skip":false,"key":"1.6.2.1.1"},{"backlink":"eating/waterreminder.html#fig1.6.2.1.2","level":"1.6.2.1","align":"left","list_caption":"Figure: WaterReminder 添加饮水记录","alt":"WaterReminder 添加饮水记录","nro":19,"url":"../images/eating-waterreminder-add-record.jpeg","index":2,"caption_template":"Figure: _CAPTION_","label":"WaterReminder 添加饮水记录","attributes":{},"skip":false,"key":"1.6.2.1.2"},{"backlink":"eating/waterreminder.html#fig1.6.2.1.3","level":"1.6.2.1","align":"left","list_caption":"Figure: 添加不同大小的杯子","alt":"添加不同大小的杯子","nro":20,"url":"../images/eating-waterreminder-add-cup.jpeg","index":3,"caption_template":"Figure: _CAPTION_","label":"添加不同大小的杯子","attributes":{},"skip":false,"key":"1.6.2.1.3"},{"backlink":"eating/waterreminder.html#fig1.6.2.1.4","level":"1.6.2.1","align":"left","list_caption":"Figure: 设置喝水提醒","alt":"设置喝水提醒","nro":21,"url":"../images/eating-waterreminder-alert.jpeg","index":4,"caption_template":"Figure: _CAPTION_","label":"设置喝水提醒","attributes":{},"skip":false,"key":"1.6.2.1.4"},{"backlink":"sleep/autosleep.html#fig1.7.2.1.1","level":"1.7.2.1","align":"left","list_caption":"Figure: AutoSleep 的熄灯界面","alt":"AutoSleep 的熄灯界面","nro":22,"url":"../images/sleep-autosleep-watch-interface.png","index":1,"caption_template":"Figure: _CAPTION_","label":"AutoSleep 的熄灯界面","attributes":{},"skip":false,"key":"1.7.2.1.1"},{"backlink":"sleep/autosleep.html#fig1.7.2.1.2","level":"1.7.2.1","align":"left","list_caption":"Figure: 睡眠模块","alt":"睡眠模块","nro":23,"url":"../images/sleep-autosleep-today-block1.jpeg","index":2,"caption_template":"Figure: _CAPTION_","label":"睡眠模块","attributes":{},"skip":false,"key":"1.7.2.1.2"},{"backlink":"sleep/autosleep.html#fig1.7.2.1.3","level":"1.7.2.1","align":"left","list_caption":"Figure: 睡眠时长","alt":"睡眠时长","nro":24,"url":"../images/sleep-autosleep-today-block2.jpeg","index":3,"caption_template":"Figure: _CAPTION_","label":"睡眠时长","attributes":{},"skip":false,"key":"1.7.2.1.3"},{"backlink":"sleep/autosleep.html#fig1.7.2.1.4","level":"1.7.2.1","align":"left","list_caption":"Figure: 睡眠评价","alt":"睡眠评价","nro":25,"url":"../images/sleep-autosleep-today-block3.jpeg","index":4,"caption_template":"Figure: _CAPTION_","label":"睡眠评价","attributes":{},"skip":false,"key":"1.7.2.1.4"},{"backlink":"sleep/autosleep.html#fig1.7.2.1.5","level":"1.7.2.1","align":"left","list_caption":"Figure: 就寝时间","alt":"就寝时间","nro":26,"url":"../images/sleep-autosleep-today-block4.jpeg","index":5,"caption_template":"Figure: _CAPTION_","label":"就寝时间","attributes":{},"skip":false,"key":"1.7.2.1.5"},{"backlink":"sleep/autosleep.html#fig1.7.2.1.6","level":"1.7.2.1","align":"left","list_caption":"Figure: 就绪状态","alt":"就绪状态","nro":27,"url":"../images/sleep-autosleep-today-block5.jpeg","index":6,"caption_template":"Figure: _CAPTION_","label":"就绪状态","attributes":{},"skip":false,"key":"1.7.2.1.6"},{"backlink":"sleep/autosleep.html#fig1.7.2.1.7","level":"1.7.2.1","align":"left","list_caption":"Figure: 熄灯时间","alt":"熄灯时间","nro":28,"url":"../images/sleep-autosleep-today-block6.jpeg","index":7,"caption_template":"Figure: _CAPTION_","label":"熄灯时间","attributes":{},"skip":false,"key":"1.7.2.1.7"},{"backlink":"authors/bestony.html#fig1.14.1.1","level":"1.14.1","align":"left","list_caption":"Figure: 微信二维码","alt":"微信二维码","nro":29,"url":"https://postimg.aliavv.com/mbp/kr6f7.jpg","index":1,"caption_template":"Figure: _CAPTION_","label":"微信二维码","attributes":{},"skip":false,"key":"1.14.1.1"}]},"title":"自我量化指南","links":{"sidebar":{"联系作者":"mailto:xiqingongzi+lianghua@gmail.com"}},"gitbook":"*","description":"自我量化路上的指南针"},"file":{"path":"theory.md","mtime":"2021-01-22T18:03:18.871Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-01-22T18:04:13.459Z"},"basePath":".","book":{"language":""}});
-        });
-    </script>
-</div>
-
-        
-    <script src="gitbook/gitbook.js"></script>
-    <script src="gitbook/theme.js"></script>
-    
-        
-        <script src="gitbook/gitbook-plugin-ga/plugin.js"></script>
-        
-    
-        
-        <script src="gitbook/gitbook-plugin-edit-link/plugin.js"></script>
-        
-    
-        
-        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
-        
-    
-        
-        <script src="gitbook/gitbook-plugin-search/search.js"></script>
-        
-    
-        
-        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
-        
-    
-        
-        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
-        
-    
-        
-        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
-        
-    
-        
-        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
-        
-    
-        
-        <script src="gitbook/gitbook-plugin-theme-comscore/test.js"></script>
-        
-    
-
     </body>
 </html>
-

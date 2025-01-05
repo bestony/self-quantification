@@ -1,972 +1,316 @@
-
 <!DOCTYPE HTML>
-<html lang="" >
+<html lang="zh-Hans" class="sidebar-visible no-js light">
     <head>
+        <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
-        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-        <title>时间块 · 自我量化指南</title>
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <title>时间块 - 自我量化指南 - 给自己的大数据</title>
+
+
+        <!-- Custom HTML head -->
+
         <meta name="description" content="">
-        <meta name="generator" content="GitBook 3.2.3">
-        
-        
-        
-    
-    <link rel="stylesheet" href="../gitbook/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
 
-    
-            
-                
-                <link rel="stylesheet" href="../gitbook/gitbook-plugin-image-captions/image-captions.css">
-                
-            
-                
-                <link rel="stylesheet" href="../gitbook/gitbook-plugin-anchors/plugin.css">
-                
-            
-                
-                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
-                
-            
-                
-                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
-                
-            
-                
-                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
-                
-            
-                
-                <link rel="stylesheet" href="../gitbook/gitbook-plugin-theme-comscore/test.css">
-                
-            
-        
+        <link rel="icon" href="../favicon.svg">
+        <link rel="shortcut icon" href="../favicon.png">
+        <link rel="stylesheet" href="../css/variables.css">
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../css/chrome.css">
+        <link rel="stylesheet" href="../css/print.css" media="print">
 
-    
+        <!-- Fonts -->
+        <link rel="stylesheet" href="../FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="../fonts/fonts.css">
 
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
-        
-    
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="../highlight.css">
+        <link rel="stylesheet" href="../tomorrow-night.css">
+        <link rel="stylesheet" href="../ayu-highlight.css">
 
-        
-    
-    
-    <meta name="HandheldFriendly" content="true"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
-    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
-
-    
-    <link rel="next" href="../emotion/readme.html" />
-    
-    
-    <link rel="prev" href="timetrackio.html" />
-    
+        <!-- Custom theme stylesheets -->
 
     </head>
     <body>
-        
-<div class="book">
-    <div class="book-summary">
-        
-            
-<div id="book-search-input" role="search">
-    <input type="text" placeholder="Type to search" />
-</div>
-
-            
-                <nav role="navigation">
-                
-
-
-<ul class="summary">
-    
-    
-    
-        
-        <li>
-            <a href="mailto:xiqingongzi+lianghua@gmail.com" target="_blank" class="custom-link">联系作者</a>
-        </li>
-    
-    
-
-    
-    <li class="divider"></li>
-    
-
-    
-        
-        
-    
-        <li class="chapter " data-level="1.1" data-path="../">
-            
-                <a href="../">
-            
-                    
-                    简介
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.2" data-path="../preface.html">
-            
-                <a href="../preface.html">
-            
-                    
-                    前言
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.3" data-path="../theory.html">
-            
-                <a href="../theory.html">
-            
-                    
-                    理论
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.4" data-path="readme.html">
-            
-                <a href="readme.html">
-            
-                    
-                    时间量化
-            
-                </a>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="1.4.1" >
-            
-                <span>
-            
-                    
-                    软件
-            
-                </span>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="1.4.1.1" data-path="timetrackio.html">
-            
-                <a href="timetrackio.html">
-            
-                    
-                    TimeTrack.io(aTimelogger)
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter active" data-level="1.4.1.2" data-path="timeblock.html">
-            
-                <a href="timeblock.html">
-            
-                    
-                    时间块
-            
-                </a>
-            
-
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-        <li class="chapter " data-level="1.5" data-path="../emotion/readme.html">
-            
-                <a href="../emotion/readme.html">
-            
-                    
-                    情绪量化
-            
-                </a>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="1.5.1" >
-            
-                <span>
-            
-                    
-                    软件
-            
-                </span>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="1.5.1.1" data-path="../emotion/moodnotes.html">
-            
-                <a href="../emotion/moodnotes.html">
-            
-                    
-                    Moodnotes
-            
-                </a>
-            
-
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-        <li class="chapter " data-level="1.6" data-path="../eating/readme.html">
-            
-                <a href="../eating/readme.html">
-            
-                    
-                    进食量化
-            
-                </a>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="1.6.1" >
-            
-                <span>
-            
-                    
-                    进餐
-            
-                </span>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.6.2" >
-            
-                <span>
-            
-                    
-                    饮水
-            
-                </span>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="1.6.2.1" data-path="../eating/waterreminder.html">
-            
-                <a href="../eating/waterreminder.html">
-            
-                    
-                    WaterReminder
-            
-                </a>
-            
-
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-        <li class="chapter " data-level="1.7" data-path="../sleep/readme.html">
-            
-                <a href="../sleep/readme.html">
-            
-                    
-                    睡眠量化
-            
-                </a>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="1.7.1" >
-            
-                <span>
-            
-                    
-                    硬件
-            
-                </span>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="1.7.1.1" data-path="../sleep/apple-watch.html">
-            
-                <a href="../sleep/apple-watch.html">
-            
-                    
-                    Apple Watch
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.7.1.2" >
-            
-                <span>
-            
-                    
-                    手环
-            
-                </span>
-            
-
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-        <li class="chapter " data-level="1.7.2" >
-            
-                <span>
-            
-                    
-                    软件
-            
-                </span>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="1.7.2.1" data-path="../sleep/autosleep.html">
-            
-                <a href="../sleep/autosleep.html">
-            
-                    
-                    AutoSleep
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.7.2.2" >
-            
-                <span>
-            
-                    
-                    SleepCycle
-            
-                </span>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.7.2.3" >
-            
-                <span>
-            
-                    
-                    Pillow
-            
-                </span>
-            
-
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-        <li class="chapter " data-level="1.8" >
-            
-                <span>
-            
-                    
-                    穿着量化
-            
-                </span>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="1.8.1" >
-            
-                <span>
-            
-                    
-                    StyleBook
-            
-                </span>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.8.2" >
-            
-                <span>
-            
-                    
-                    简衣橱
-            
-                </span>
-            
-
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-        <li class="chapter " data-level="1.9" >
-            
-                <span>
-            
-                    
-                    健康量化
-            
-                </span>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="1.9.1" >
-            
-                <span>
-            
-                    
-                    硬件
-            
-                </span>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="1.9.1.1" >
-            
-                <span>
-            
-                    
-                    Apple Watch
-            
-                </span>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.9.1.2" >
-            
-                <span>
-            
-                    
-                    手环
-            
-                </span>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.9.1.3" >
-            
-                <span>
-            
-                    
-                    体脂秤
-            
-                </span>
-            
-
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-        <li class="chapter " data-level="1.9.2" >
-            
-                <span>
-            
-                    
-                    软件
-            
-                </span>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="1.9.2.1" >
-            
-                <span>
-            
-                    
-                    Apple 健康
-            
-                </span>
-            
-
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-        <li class="chapter " data-level="1.10" >
-            
-                <span>
-            
-                    
-                    专业手段
-            
-                </span>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="1.10.1" >
-            
-                <span>
-            
-                    
-                    睡眠
-            
-                </span>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.10.2" >
-            
-                <span>
-            
-                    
-                    情绪
-            
-                </span>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.10.3" >
-            
-                <span>
-            
-                    
-                    体脂
-            
-                </span>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.10.4" >
-            
-                <span>
-            
-                    
-                    体检
-            
-                </span>
-            
-
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-        <li class="chapter " data-level="1.11" data-path="../books.html">
-            
-                <a href="../books.html">
-            
-                    
-                    推荐书籍
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.12" >
-            
-                <span>
-            
-                    
-                    后记
-            
-                </span>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.13" data-path="../contribute.html">
-            
-                <a href="../contribute.html">
-            
-                    
-                    贡献本书
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.14" >
-            
-                <span>
-            
-                    
-                    关于作者
-            
-                </span>
-            
-
-            
-            <ul class="articles">
-                
-    
-        <li class="chapter " data-level="1.14.1" data-path="../authors/bestony.html">
-            
-                <a href="../authors/bestony.html">
-            
-                    
-                    白宦成
-            
-                </a>
-            
-
-            
-        </li>
-    
-        <li class="chapter " data-level="1.14.2" data-path="../authors/ffeels.html">
-            
-                <a href="../authors/ffeels.html">
-            
-                    
-                    涂俊杰
-            
-                </a>
-            
-
-            
-        </li>
-    
-
-            </ul>
-            
-        </li>
-    
-
-    
-
-    <li class="divider"></li>
-
-    <li>
-        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
-            Published with GitBook
-        </a>
-    </li>
-</ul>
-
-
-                </nav>
-            
-        
-    </div>
-
-    <div class="book-body">
-        
-            <div class="body-inner">
-                
-                    
-
-<div class="book-header" role="navigation">
-    
-
-    <!-- Title -->
-    <h1>
-        <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href=".." >时间块</a>
-    </h1>
-</div>
-
-
-
-
-                    <div class="page-wrapper" tabindex="-1" role="main">
-                        <div class="page-inner">
-                            
-<div id="book-search-results">
-    <div class="search-noresults">
-    
-                                <section class="normal markdown-section">
-                                
-                                <h1 id="&#x65F6;&#x95F4;&#x5757;"><a name="&#x65F6;&#x95F4;&#x5757;" class="plugin-anchor" href="#&#x65F6;&#x95F4;&#x5757;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x65F6;&#x95F4;&#x5757;</h1>
-<blockquote>
-<p>&#x672C;&#x6587;&#x4F5C;&#x8005;&#xFF1A;&#x767D;&#x5BA6;&#x6210;</p>
-</blockquote>
-<p>&#x65F6;&#x95F4;&#x5757;&#x662F;&#x7531;&#x56FD;&#x5185;&#x7684;&#x5F00;&#x53D1;&#x8005;&#x5B89;&#x59AE;(@anniApp)&#x5F00;&#x53D1;&#x7684;&#x4E00;&#x6B3E;&#x7528;&#x4E8E;&#x65F6;&#x95F4;&#x8BB0;&#x5F55;&#x7684; App&#x3002;&#x76EE;&#x524D;&#x4EC5;&#x63D0;&#x4F9B;&#x4E86; iOS &#x7AEF;&#x7684;&#x5E94;&#x7528;&#xFF0C;&#x4F60;&#x53EF;&#x4EE5;&#x5728; App Store &#x4E2D;&#x53D1;&#x73B0;&#x4ED6;&#x3002;</p>
-<h2 id="&#x7248;&#x672C;&#x8BF4;&#x660E;"><a name="&#x7248;&#x672C;&#x8BF4;&#x660E;" class="plugin-anchor" href="#&#x7248;&#x672C;&#x8BF4;&#x660E;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x7248;&#x672C;&#x8BF4;&#x660E;</h2>
-<p>&#x65F6;&#x95F4;&#x5757;&#x76EE;&#x524D;&#x5728; App Store &#x63D0;&#x4F9B;&#x4E86;&#x4E24;&#x4E2A;&#x4E0D;&#x540C;&#x7684;&#x7248;&#x672C;&#xFF0C;&#x5206;&#x522B;&#x662F;&#xFF1A;</p>
-<ul>
-<li><strong>&#x65F6;&#x95F4;&#x5757;</strong>&#xFF1A;&#x65F6;&#x95F4;&#x5757;&#x662F;&#x5B8C;&#x5168;&#x529F;&#x80FD;&#x7684;&#x7248;&#x672C;&#xFF0C;&#x552E;&#x4EF7;&#x4E3A; 12 &#x5143;&#x4EBA;&#x6C11;&#x5E01;&#xFF0C;&#x4E0B;&#x6587;&#x79F0;&#x5176;&#x4E3A;&#x201C;&#x65F6;&#x95F4;&#x5757;&#x5B8C;&#x6574;&#x7248;&#x201D;</li>
-<li><strong>&#x65F6;&#x95F4;&#x5757;&#x9752;&#x6625;&#x7248;</strong>&#xFF1A;&#x65F6;&#x95F4;&#x5757;&#x9752;&#x6625;&#x7248;&#x662F;&#x63D0;&#x4F9B;&#x4E86;&#x4E3B;&#x8981;&#x529F;&#x80FD;&#x7684;&#x7248;&#x672C;&#xFF0C;&#x76EE;&#x524D;&#x662F;&#x514D;&#x8D39;&#x63D0;&#x4F9B;&#x7528;&#x6237;&#x4F7F;&#x7528;&#x7684;&#x3002;</li>
-</ul>
-<p>&#x5982;&#x679C;&#x4F60;&#x4E0D;&#x786E;&#x5B9A;&#x81EA;&#x5DF1;&#x80FD;&#x5426;&#x63A5;&#x53D7;&#x65F6;&#x95F4;&#x5757;&#x7684;&#x7406;&#x5FF5;&#xFF0C;&#x90A3;&#x4E48;&#x4F60;&#x53EF;&#x4EE5;&#x5148;&#x4E0B;&#x8F7D;&#x65F6;&#x95F4;&#x5757;&#x9752;&#x6625;&#x7248;&#xFF0C;&#x6765;&#x8FDB;&#x884C;&#x521D;&#x6B65;&#x7684;&#x4F7F;&#x7528;&#xFF0C;&#x7B49;&#x4F60;&#x540E;&#x7EED;&#x786E;&#x8BA4;&#x81EA;&#x5DF1;&#x8981;&#x4F7F;&#x7528;&#x65F6;&#x95F4;&#x5757;&#x6765;&#x5B8C;&#x6210;&#x81EA;&#x5DF1;&#x7684;&#x65F6;&#x95F4;&#x91CF;&#x5316;&#x4EE5;&#x540E;&#xFF0C;&#x5C31;&#x53EF;&#x4EE5;&#x8D2D;&#x4E70;&#x4ED8;&#x8D39;&#x7248;&#x672C;&#x7684;&#x65F6;&#x95F4;&#x5757;&#x4E86;&#x3002;</p>
-<figure id="fig1.4.1.2.1"><img src="../images/time-timeblock-appstore.png" alt="Apple store &#x5185;&#x641C;&#x7D22;&#x201C;&#x65F6;&#x95F4;&#x5757;&#x201D;"><figcaption class="left">Figure: Apple store &#x5185;&#x641C;&#x7D22;&#x201C;&#x65F6;&#x95F4;&#x5757;&#x201D;</figcaption></figure>
-<p>&#x76F8;&#x6BD4;&#x4E8E;&#x9752;&#x6625;&#x7248;&#xFF0C;&#x65F6;&#x95F4;&#x5757;&#x5E94;&#x7528;&#x591A;&#x63D0;&#x4F9B;&#x4E86;&#x4EE5;&#x4E0B;&#x529F;&#x80FD;</p>
-<ul>
-<li><strong>&#x6570;&#x636E;&#x5BFC;&#x51FA;</strong>&#xFF1A;&#x5728;&#x65F6;&#x95F4;&#x5757;&#x5B8C;&#x6574;&#x7248;&#x4E2D;&#xFF0C;&#x4F60;&#x53EF;&#x4EE5;&#x5C06;&#x4F60;&#x7684;&#x6570;&#x636E;&#x5BFC;&#x51FA;&#x4E3A; CSV&#x3001;&#x90AE;&#x4EF6;&#x7B49;&#x591A;&#x79CD;&#x5F62;&#x5F0F;&#xFF0C;&#x4ECE;&#x800C;&#x5728;&#x7535;&#x8111;&#x4E2D;&#x5B8C;&#x6210;&#x6570;&#x636E;&#x7684;&#x5206;&#x6790;&#xFF0C;&#x800C;&#x65F6;&#x95F4;&#x5757;&#x9752;&#x6625;&#x7248;&#x5219;&#x4E0D;&#x5177;&#x5907;&#x6570;&#x636E;&#x5BFC;&#x51FA;&#x7684;&#x80FD;&#x529B;&#xFF0C;&#x4F60;&#x53EA;&#x80FD;&#x4F7F;&#x7528;&#x624B;&#x673A;&#x7AEF;&#x81EA;&#x5E26;&#x7684;&#x5206;&#x6790;&#x8FDB;&#x884C;&#x6570;&#x636E;&#x7684;&#x5206;&#x6790;&#x3002;</li>
-<li><strong>&#x65F6;&#x95F4;&#x76EE;&#x6807;</strong>&#xFF1A;&#x4F60;&#x53EF;&#x4EE5;&#x4E3A;&#x4F60;&#x7684;&#x65F6;&#x95F4;&#x8BBE;&#x7F6E;&#x76EE;&#x6807;&#xFF0C;&#x6BD4;&#x5982;&#x8BF4;&#xFF0C;&#x8BBE;&#x7F6E;&#x81EA;&#x5DF1;&#x4E00;&#x5E74;&#x9700;&#x8981;&#x8BFB;&#x4E66; 365 &#x5C0F;&#x65F6;&#x3002;&#x501F;&#x52A9;&#x8FD9;&#x4E2A;&#x529F;&#x80FD;&#xFF0C;&#x4F60;&#x53EF;&#x4EE5;&#x6E05;&#x695A;&#x7684;&#x770B;&#x5230;&#xFF0C;&#x5F53;&#x524D;&#x76EE;&#x6807;&#x7684;&#x5B8C;&#x6210;&#x5EA6;&#x3002;</li>
-<li><strong>&#x4E8B;&#x4EF6;&#x7C7B;&#x522B;&#x7684;&#x591A;&#x7EA7;&#x5206;&#x7C7B;</strong>&#xFF1A;&#x5728;&#x65F6;&#x95F4;&#x5757;&#x5B8C;&#x6574;&#x7248;&#x4E2D;&#xFF0C;&#x4F60;&#x53EF;&#x4EE5;&#x5BF9;&#x4E8B;&#x4EF6;&#x7C7B;&#x522B;&#x8BBE;&#x7F6E;&#x591A;&#x7EA7;&#x5206;&#x7C7B;&#xFF0C;&#x4ECE;&#x800C;&#x53EF;&#x4EE5;&#x66F4;&#x597D;&#x7684;&#x7BA1;&#x7406;&#x4F60;&#x7684;&#x4E8B;&#x4EF6;&#x5206;&#x7C7B;&#xFF0C;&#x4E3E;&#x4E2A;&#x4F8B;&#x5B50;&#xFF0C;&#x5982;&#x679C;&#x4F60;&#x53EA;&#x6709;&#x5A31;&#x4E50;&#x4E00;&#x4E2A;&#x5206;&#x7C7B;&#xFF0C;&#x5BF9;&#x4E8E;&#x65F6;&#x95F4;&#x91CF;&#x5316;&#x7684;&#x7C92;&#x5EA6;&#x53EF;&#x80FD;&#x592A;&#x7C97;&#x4E86;&#xFF0C;&#x4F60;&#x53EF;&#x4EE5;&#x5728;&#x5A31;&#x4E50;&#x4E0B;&#x52A0;&#x5165; KTV&#x3001;&#x6253;&#x6E38;&#x620F;&#x3001;&#x770B;&#x7535;&#x5F71;&#x7B49;&#x4E0D;&#x540C;&#x7684;&#x4E8C;&#x7EA7;&#x5206;&#x7C7B;&#xFF0C;&#x6765;&#x8FDB;&#x884C;&#x66F4;&#x7EC6;&#x81F4;&#x7684;&#x65F6;&#x95F4;&#x8BB0;&#x5F55;&#x3002;</li>
-<li><strong>&#x4E8B;&#x4EF6;&#x5185;&#x5BB9;</strong>&#xFF1A;&#x5728;&#x65F6;&#x95F4;&#x5757;&#x4E2D;&#xFF0C;&#x4F60;&#x8BB0;&#x5F55;&#x65F6;&#x95F4;&#x662F;&#x901A;&#x8FC7;&#x4E8B;&#x4EF6;&#x7C7B;&#x522B;&#x5B8C;&#x6210;&#x7684;&#x3002;&#x76F8;&#x6BD4;&#x4E8E;&#x9752;&#x6625;&#x7248;&#xFF0C;&#x5B8C;&#x6574;&#x7248;&#x7684;&#x65F6;&#x95F4;&#x5757;&#x80FD;&#x591F;&#x5728;&#x8FDB;&#x884C;&#x65F6;&#x95F4;&#x7C7B;&#x522B;&#x7684;&#x57FA;&#x7840;&#x4E0A;&#xFF0C;&#x8FDB;&#x884C;&#x4E8B;&#x4EF6;&#x5185;&#x5BB9;&#x7684;&#x8FDB;&#x4E00;&#x6B65;&#x5206;&#x7C7B;&#xFF0C;&#x6BD4;&#x5982;&#x8BF4;&#xFF0C;&#x4F60;&#x8BBE;&#x5B9A;&#x4E86;&#x4E8B;&#x4EF6;&#x7C7B;&#x522B;&#x4E3A;&#x8BFB;&#x4E66;&#xFF0C;&#x4E8B;&#x4EF6;&#x5185;&#x5BB9;&#x53EF;&#x4EE5;&#x8BBE;&#x7F6E;&#x4E3A;&#x201D;&#x81EA;&#x6211;&#x91CF;&#x5316;&#x7535;&#x5B50;&#x4E66;&#x201C;&#xFF0C;&#x8FD9;&#x6837;&#x4F60;&#x53EF;&#x4EE5;&#x9488;&#x5BF9;&#x201D;&#x8BFB;&#x81EA;&#x6211;&#x91CF;&#x5316;&#x7535;&#x5B50;&#x4E66;&#x201C;&#x7684;&#x65F6;&#x95F4;&#x8FDB;&#x884C;&#x5355;&#x72EC;&#x7684;&#x7EDF;&#x8BA1;&#x3002;</li>
-<li><strong>&#x5370;&#x7AE0;&#x529F;&#x80FD;</strong>&#xFF1A;&#x5728;&#x65F6;&#x95F4;&#x5757;&#x5B8C;&#x6574;&#x7248;&#x4E2D;&#xFF0C;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x8BBE;&#x7F6E;&#x4E0D;&#x540C;&#x7684;&#x65F6;&#x95F4;&#x5370;&#x7AE0;&#xFF0C;&#x501F;&#x52A9;&#x5370;&#x7AE0;&#xFF0C;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x5C06;&#x4E00;&#x4E9B;&#x6BD4;&#x8F83;&#x89C4;&#x5F8B;&#x7684;&#x6D3B;&#x52A8;&#x7EC4;&#x7EC7;&#x8D77;&#x6765;&#xFF0C;&#x8FBE;&#x5230;&#x201C;&#x590D;&#x5236;&#x201D;&#x3001;&quot;&#x7C98;&#x8D34;&quot;&#x7684;&#x6548;&#x679C;&#x3002;</li>
-<li><strong>&#x66F4;&#x591A;&#x7684;&#x8BBE;&#x7F6E;&#x9879;&#x76EE;</strong>&#xFF1A;&#x65F6;&#x95F4;&#x5757;&#x5B8C;&#x6574;&#x7248;&#x76F8;&#x6BD4;&#x4E8E;&#x9752;&#x6625;&#x7248;&#xFF0C;&#x63D0;&#x4F9B;&#x4E86;&#x66F4;&#x591A;&#x7684;&#x8BBE;&#x7F6E;&#x9879;&#x76EE;&#x548C;&#x66F4;&#x591A;&#x7684;&#x529F;&#x80FD;&#x8BBE;&#x5B9A;&#xFF0C;&#x56E0;&#x6B64;&#xFF0C;&#x4F60;&#x53EF;&#x4EE5;&#x501F;&#x52A9;&#x5B83;&#x6765;&#x5B8C;&#x6210;&#x66F4;&#x52A0;&#x7CBE;&#x7EC6;&#x5316;&#x7684;&#x8C03;&#x6574;&#x3002;</li>
-</ul>
-<figure id="fig1.4.1.2.2"><img src="../images/time-timeblock-compare.jpeg" alt="&#x5DE6;&#x4FA7;&#x4E3A;&#x5B8C;&#x6574;&#x7248;&#x65F6;&#x95F4;&#x5757;&#xFF0C;&#x53F3;&#x4FA7;&#x4E3A;&#x9752;&#x6625;&#x7248;&#x65F6;&#x95F4;&#x5757;"><figcaption class="left">Figure: &#x5DE6;&#x4FA7;&#x4E3A;&#x5B8C;&#x6574;&#x7248;&#x65F6;&#x95F4;&#x5757;&#xFF0C;&#x53F3;&#x4FA7;&#x4E3A;&#x9752;&#x6625;&#x7248;&#x65F6;&#x95F4;&#x5757;</figcaption></figure>
-<h2 id="&#x65F6;&#x95F4;&#x5757;&#x7684;&#x7406;&#x5FF5;"><a name="&#x65F6;&#x95F4;&#x5757;&#x7684;&#x7406;&#x5FF5;" class="plugin-anchor" href="#&#x65F6;&#x95F4;&#x5757;&#x7684;&#x7406;&#x5FF5;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x65F6;&#x95F4;&#x5757;&#x7684;&#x7406;&#x5FF5;</h2>
-<p>&#x5728;&#x524D;&#x9762;&#x7684;&#x5185;&#x5BB9;&#x4E2D;&#xFF0C; &#x6211;&#x4EEC;&#x4ECB;&#x7ECD;&#x4E86; TimeTrack &#x548C; aTimelogger &#xFF0C;&#x4F60;&#x4F1A;&#x53D1;&#x73B0;&#x548C;&#x524D;&#x9762;&#x4E24;&#x8005;&#x76F8;&#x6BD4;&#xFF0C;&#x65F6;&#x95F4;&#x5757;&#x7684;&#x8BB0;&#x5F55;&#x7C92;&#x5EA6;&#x975E;&#x5E38;&#x7684;&#x7C97;&#xFF0C;&#x8FBE;&#x5230;&#x4E86;&#x534A;&#x5C0F;&#x65F6;&#x4E00;&#x6B21;&#x8BB0;&#x5F55;&#x6B21;&#xFF0C;&#x76F8;&#x6BD4;&#x4E8E;&#x524D;&#x4E24;&#x8005;&#x7684;&#x79D2;&#x7EA7;&#x8BB0;&#x5F55;&#xFF0C;&#x663E;&#x7136;&#x65F6;&#x95F4;&#x5757;&#x7684;&#x8BB0;&#x5F55;&#x7C92;&#x5EA6;&#x7C97;&#x7684;&#x592A;&#x591A;&#x4E86;&#x3002;&#x4E0D;&#x8FC7;&#xFF0C;&#x5176;&#x4F5C;&#x8005; Annie &#x662F;&#x8FD9;&#x6837;&#x8BA4;&#x4E3A;&#x7684;&#xFF1A;</p>
-<blockquote>
-<p>&#x7CBE;&#x786E;&#x8BB0;&#x5F55;&#x7684;&#x597D;&#x5904;&#x4E0D;&#x5FC5;&#x591A;&#x8BF4;&#xFF0C;&#x4F46;&#x6709;&#x4E25;&#x91CD;&#x7684;&#x7F3A;&#x70B9;&#xFF0C;&#x90A3;&#x5C31;&#x662F;<strong>&#x8017;&#x8D39;&#x7CBE;&#x529B;</strong>&#x548C;<strong>&#x96BE;&#x4EE5;&#x575A;&#x6301;</strong>&#x3002;</p>
-<p>&#x800C;&#x8BB0;&#x5F55;&#x65F6;&#x95F4;&#x662F;&#x4E2A;&#x957F;&#x671F;&#x575A;&#x6301;&#x624D;&#x6709;&#x610F;&#x4E49;&#x7684;&#x4E8B;&#xFF0C;&#x4ECE;&#x4E00;&#x4E2A;&#x5927;&#x7684;&#x65F6;&#x95F4;&#x533A;&#x95F4;&#x6765;&#x770B;&#xFF0C;&#x5C0F;&#x7684;&#x8BEF;&#x5DEE;&#x5E76;&#x4E0D;&#x4F1A;&#x5BF9;&#x7EDF;&#x8BA1;&#x5206;&#x6790;&#x7684;&#x7ED3;&#x679C;&#x9020;&#x6210;&#x591A;&#x5927;&#x5F71;&#x54CD;&#x3002;</p>
-<p>&#x6BD4;&#x8D77;&#x7CBE;&#x786E;&#x4F46;&#x5374;&#x575A;&#x6301;&#x4E0D;&#x4E0B;&#x53BB;&#xFF0C;&#x727A;&#x7272;&#x4E00;&#x4E9B;&#x7CBE;&#x5EA6;&#x6765;&#x6362;&#x5F97;&#x575A;&#x6301;&#xFF0C;&#x5BF9;&#x4E0D;&#x5C11;&#x4EBA;&#x6765;&#x8BF4;&#x662F;&#x4E00;&#x4E2A;&#x6BD4;&#x8F83;&#x597D;&#x7684;&#x6298;&#x8877;&#x65B9;&#x6848;&#x3002;</p>
-</blockquote>
-<h2 id="&#x65F6;&#x95F4;&#x5757;&#x7684;&#x4F7F;&#x7528;"><a name="&#x65F6;&#x95F4;&#x5757;&#x7684;&#x4F7F;&#x7528;" class="plugin-anchor" href="#&#x65F6;&#x95F4;&#x5757;&#x7684;&#x4F7F;&#x7528;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x65F6;&#x95F4;&#x5757;&#x7684;&#x4F7F;&#x7528;</h2>
-<h3 id="&#x65F6;&#x95F4;&#x7684;&#x8BB0;&#x5F55;"><a name="&#x65F6;&#x95F4;&#x7684;&#x8BB0;&#x5F55;" class="plugin-anchor" href="#&#x65F6;&#x95F4;&#x7684;&#x8BB0;&#x5F55;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x65F6;&#x95F4;&#x7684;&#x8BB0;&#x5F55;</h3>
-<p>&#x5728;&#x65F6;&#x95F4;&#x5757;&#x4E2D;&#xFF0C;&#x65F6;&#x95F4;&#x7684;&#x8BB0;&#x5F55;&#x662F;&#x975E;&#x5E38;&#x7B80;&#x5355;&#x7684;</p>
-<ol>
-<li><p>&#x5728;&#x4E3B;&#x754C;&#x9762;&#x4E2D;<strong>&#x70B9;&#x51FB;&#x5DE6;&#x4FA7;&#x7684;&#x65F6;&#x95F4;&#x5757;</strong>&#x9009;&#x62E9;&#x65F6;&#x95F4;&#x6BB5;&#xFF1B;</p>
-</li>
-<li><p><strong>&#x70B9;&#x51FB;&#x53F3;&#x4FA7;&#x7684;&#x4E8B;&#x4EF6;&#x7C7B;&#x522B;&#x6807;&#x7B7E;</strong>&#x5C06;&#x5176;&#x6807;&#x8BB0;&#x3002;</p>
-</li>
-</ol>
-<p><video src="../videos/time-timeblock-add-record.mp4" width="100%" height="100%" controls="controls" loop></video></p>
-<h3 id="&#x5728;&#x8BB0;&#x5F55;&#x65F6;&#x95F4;&#x65F6;&#xFF0C;&#x6DFB;&#x52A0;&#x5907;&#x6CE8;"><a name="&#x5728;&#x8BB0;&#x5F55;&#x65F6;&#x95F4;&#x65F6;&#xFF0C;&#x6DFB;&#x52A0;&#x5907;&#x6CE8;" class="plugin-anchor" href="#&#x5728;&#x8BB0;&#x5F55;&#x65F6;&#x95F4;&#x65F6;&#xFF0C;&#x6DFB;&#x52A0;&#x5907;&#x6CE8;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x5728;&#x8BB0;&#x5F55;&#x65F6;&#x95F4;&#x65F6;&#xFF0C;&#x6DFB;&#x52A0;&#x5907;&#x6CE8;</h3>
-<p>&#x5728;&#x8BB0;&#x5F55;&#x65F6;&#x95F4;&#x65F6;&#xFF0C;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x4E3A;&#x5177;&#x4F53;&#x7684;&#x4E8B;&#x4EF6;&#x6DFB;&#x52A0;&#x5907;&#x6CE8;&#xFF0C;&#x4ECE;&#x800C;&#x65B9;&#x4FBF;&#x6211;&#x4EEC;&#x5728;&#x540E;&#x7EED;&#x8FDB;&#x884C;&#x6570;&#x636E;&#x5206;&#x6790;&#x65F6;&#x8FDB;&#x884C;&#x5904;&#x7406;&#x548C;&#x540E;&#x7EED;&#x7684;&#x4E8B;&#x4EF6;&#x56DE;&#x987E;&#x65F6;&#x67E5;&#x770B;&#x3002;</p>
-<ol>
-<li><p>&#x5728;&#x4E3B;&#x754C;&#x9762;&#x4E2D;<strong>&#x70B9;&#x51FB;&#x5DE6;&#x4FA7;&#x7684;&#x65F6;&#x95F4;&#x5757;</strong>&#x9009;&#x62E9;&#x65F6;&#x95F4;&#x6BB5;&#xFF1B;</p>
-</li>
-<li><p><strong>&#x70B9;&#x51FB;&#x53F3;&#x4FA7;&#x7684;&#x4E8B;&#x4EF6;&#x7C7B;&#x522B;&#x6807;&#x7B7E;</strong>&#x5C06;&#x5176;&#x6807;&#x8BB0;&#x3002;</p>
-</li>
-<li><p>&#x91CD;&#x65B0;&#x70B9;&#x51FB;&#x6807;&#x8BB0;&#x597D;&#x7684;&#x5757;&#xFF0C;&#x70B9;&#x51FB;&#x4E0B;&#x65B9;&#x7684;&#x6807;&#x6CE8;&#x680F;&#xFF0C;&#x5728;&#x5F39;&#x51FA;&#x7684;&#x5907;&#x6CE8;&#x7A97;&#x53E3;&#x6DFB;&#x52A0;&#x6570;&#x636E;&#x3002;</p>
-</li>
-</ol>
-<p><video src="../videos/time-timeblock-add-notes.mp4" width="100%" height="100%" controls="controls" loop></video></p>
-<h3 id="&#x5982;&#x4F55;&#x67E5;&#x770B;&#x7EDF;&#x8BA1;&#x6570;&#x636E;"><a name="&#x5982;&#x4F55;&#x67E5;&#x770B;&#x7EDF;&#x8BA1;&#x6570;&#x636E;" class="plugin-anchor" href="#&#x5982;&#x4F55;&#x67E5;&#x770B;&#x7EDF;&#x8BA1;&#x6570;&#x636E;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x5982;&#x4F55;&#x67E5;&#x770B;&#x7EDF;&#x8BA1;&#x6570;&#x636E;</h3>
-<p>&#x5728;&#x5B8C;&#x6210;&#x4E86;&#x6570;&#x636E;&#x7684;&#x8BB0;&#x5F55;&#x4EE5;&#x540E;&#xFF0C;&#x5C31;&#x53EF;&#x4EE5;&#x8FDB;&#x884C;&#x6570;&#x636E;&#x7EDF;&#x8BA1;&#x548C;&#x5206;&#x6790;&#x4E86;&#x3002;</p>
-<ol>
-<li>&#x5728;&#x4E3B;&#x754C;&#x9762;<strong>&#x70B9;&#x51FB;&#x5DE6;&#x4E0A;&#x89D2;&#x6309;&#x94AE;</strong>&#x6216;&#x5411;&#x53F3;&#x6ED1;&#x52A8;&#xFF0C;&#x6253;&#x5F00;&#x4FA7;&#x8FB9;&#x680F;</li>
-<li>&#x9009;&#x62E9;&#x4FA7;&#x8FB9;&#x680F;&#x4E2D;&#x7684;<strong>&#x7EDF;&#x8BA1;</strong>&#xFF0C;&#x5C31;&#x53EF;&#x4EE5;&#x8FDB;&#x5165;&#x5230;&#x7EDF;&#x8BA1;&#x9875;&#x9762;&#xFF0C;&#x8FDB;&#x884C;&#x6570;&#x636E;&#x7684;&#x7EDF;&#x8BA1;&#x5206;&#x6790;&#x3002;</li>
-</ol>
-<p><video src="../videos/time-timeblock-view-analytics.mp4" width="100%" height="100%" controls="controls" loop></video></p>
-<h3 id="&#x5982;&#x4F55;&#x5C06;&#x6570;&#x636E;&#x5BFC;&#x51FA;&#x5230;&#x7535;&#x8111;"><a name="&#x5982;&#x4F55;&#x5C06;&#x6570;&#x636E;&#x5BFC;&#x51FA;&#x5230;&#x7535;&#x8111;" class="plugin-anchor" href="#&#x5982;&#x4F55;&#x5C06;&#x6570;&#x636E;&#x5BFC;&#x51FA;&#x5230;&#x7535;&#x8111;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x5982;&#x4F55;&#x5C06;&#x6570;&#x636E;&#x5BFC;&#x51FA;&#x5230;&#x7535;&#x8111;</h3>
-<p>&#x9664;&#x4E86;&#x5728;&#x624B;&#x673A;&#x4E0A;&#x8FDB;&#x884C;&#x6570;&#x636E;&#x7684;&#x5206;&#x6790;&#x610F;&#x5916;&#xFF0C;&#x4F60;&#x53EF;&#x4EE5;&#x5C06;&#x6570;&#x636E;&#x5BFC;&#x51FA;&#x5230;&#x7535;&#x8111;&#x4E0A;&#xFF0C;&#x501F;&#x52A9; Excel&#x3001;Numbers &#x7B49;&#x8F6F;&#x4EF6;&#x8FDB;&#x884C;&#x5206;&#x6790;&#xFF0C;&#x4F60;&#x4E5F;&#x53EF;&#x4EE5;&#x81EA;&#x884C;&#x7F16;&#x5199;&#x8F6F;&#x4EF6;&#x8FDB;&#x884C;&#x5206;&#x6790;&#x3002;</p>
-<ol>
-<li>&#x5728;&#x4E3B;&#x754C;&#x9762;<strong>&#x70B9;&#x51FB;&#x5DE6;&#x4E0A;&#x89D2;&#x6309;&#x94AE;</strong>&#x6216;&#x5411;&#x53F3;&#x6ED1;&#x52A8;&#xFF0C;&#x6253;&#x5F00;&#x4FA7;&#x8FB9;&#x680F;</li>
-<li>&#x9009;&#x62E9;&#x4FA7;&#x8FB9;&#x680F;&#x4E2D;&#x7684;<strong>&#x8BBE;&#x7F6E;</strong>&#xFF0C;&#x5C31;&#x53EF;&#x4EE5;&#x8FDB;&#x5165;&#x5230;&#x8BBE;&#x7F6E;&#x9875;&#x9762;</li>
-<li>&#x5728;&#x8BBE;&#x7F6E;&#x9875;&#x9762;&#x4E0B;&#x62C9;&#xFF0C;&#x627E;&#x5230;<strong>&#x6570;&#x636E;</strong>&#x2014;<strong>&#x5BFC;&#x51FA;&#x6570;&#x636E;&#x4E3A;CSV</strong>&#x8FDB;&#x884C;&#x6570;&#x636E;&#x7684;&#x5BFC;&#x51FA;</li>
-</ol>
-<p><video src="../videos/time-timeblock-export-data.mp4" width="100%" height="100%" controls="controls" loop></video></p>
-<h2 id="&#x63A8;&#x8350;&#x9605;&#x8BFB;"><a name="&#x63A8;&#x8350;&#x9605;&#x8BFB;" class="plugin-anchor" href="#&#x63A8;&#x8350;&#x9605;&#x8BFB;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x63A8;&#x8350;&#x9605;&#x8BFB;</h2>
-<ul>
-<li><a href="https://sspai.com/post/35226" target="_blank">&#x8FD9;&#x6B3E;&#x65F6;&#x95F4;&#x7EDF;&#x8BA1;&#x5E94;&#x7528;&#xFF0C;&#x8BA9;&#x4F60;&#x4E0D;&#x518D;&#x4E3A;&#x5FD8;&#x8BB0;&#x300C;&#x5F00;&#x59CB;&#x300D;&#x548C;&#x300C;&#x7ED3;&#x675F;&#x300D;&#x800C;&#x70E6;&#x607C;&#xFF1A;&#x65F6;&#x95F4;&#x5757;</a></li>
-<li><a href="https://sspai.com/post/45687" target="_blank">&#x7528;&#x65F6;&#x95F4;&#x5757;&#x8DF5;&#x884C;&#x300C;&#x5947;&#x7279;&#x7684;&#x4E00;&#x751F;&#x300D;</a></li>
-<li><a href="https://sspai.com/post/42545" target="_blank">&#x65B0;&#x6548;&#x7387;&#x73A9;&#x513F;&#x6CD5;&#xFF1A;&#x5229;&#x7528;&#x201C;&#x65F6;&#x95F4;&#x5757;&#x201D;app&#x89C4;&#x5212;&#x9999;&#x6E2F;&#x6D77;&#x6D0B;&#x516C;&#x56ED;&#x5267;&#x573A;&#x8868;&#x6F14;&#x7684;&#x884C;&#x7A0B;</a></li>
-</ul>
-<h2 id="&#x603B;&#x7ED3;"><a name="&#x603B;&#x7ED3;" class="plugin-anchor" href="#&#x603B;&#x7ED3;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x603B;&#x7ED3;</h2>
-<p>&#x5728;&#x8FD9;&#x4E00;&#x90E8;&#x5206;&#x4E2D;&#xFF0C;&#x6211;&#x7B80;&#x5355;&#x7684;&#x4ECB;&#x7ECD;&#x4E86;&#x4E00;&#x4E0B;&#x65F6;&#x95F4;&#x5757;&#x7684;&#x4F7F;&#x7528;&#xFF0C;&#x5982;&#x679C;&#x4F60;&#x4E0D;&#x559C;&#x6B22;&#x65F6;&#x65F6;&#x523B;&#x523B;&#x7684;&#x8BB0;&#x5F55;&#xFF0C;&#x53EF;&#x4EE5;&#x8BD5;&#x7740;&#x4F7F;&#x7528;&#x65F6;&#x95F4;&#x5757;&#x6765;&#x5B8C;&#x6210;&#x8BB0;&#x5F55;&#x3002;</p>
-
-                                
-                                </section>
-                            
-    </div>
-    <div class="search-results">
-        <div class="has-results">
-            
-            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
-            <ul class="search-results-list"></ul>
-            
-        </div>
-        <div class="no-results">
-            
-            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
-            
-        </div>
-    </div>
-</div>
-
-                        </div>
+    <div id="body-container">
+        <!-- Provide site root to javascript -->
+        <script>
+            var path_to_root = "../";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script>
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script>
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script>
+            var html = document.querySelector('html');
+            var sidebar = null;
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            } else {
+                sidebar = 'hidden';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded "><a href="index.html"><strong aria-hidden="true">1.</strong> 简介</a></li><li class="chapter-item expanded "><a href="preface.html"><strong aria-hidden="true">2.</strong> 前言</a></li><li class="chapter-item expanded "><a href="theory.html"><strong aria-hidden="true">3.</strong> 理论</a></li><li class="chapter-item expanded "><a href="time/index.html"><strong aria-hidden="true">4.</strong> 时间量化</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="time/timetrackio.html"><strong aria-hidden="true">4.1.</strong> TimeTrack.io(aTimelogger)</a></li><li class="chapter-item expanded "><a href="time/timeblock.html"><strong aria-hidden="true">4.2.</strong> 时间块</a></li></ol></li><li class="chapter-item expanded "><a href="emotion/index.html"><strong aria-hidden="true">5.</strong> 情绪量化</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="emotion/moodnotes.html"><strong aria-hidden="true">5.1.</strong> Moodnotes</a></li></ol></li><li class="chapter-item expanded "><a href="eating/index.html"><strong aria-hidden="true">6.</strong> 进食量化</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="eating/waterreminder.html"><strong aria-hidden="true">6.1.</strong> WaterReminder</a></li></ol></li><li class="chapter-item expanded "><a href="sleep/index.html"><strong aria-hidden="true">7.</strong> 睡眠量化</a></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">7.1.</strong> 硬件</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="sleep/apple-watch.html"><strong aria-hidden="true">7.1.1.</strong> Apple Watch</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">7.1.2.</strong> 手环</div></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">7.2.</strong> 软件</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="sleep/autosleep.html"><strong aria-hidden="true">7.2.1.</strong> AutoSleep</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">7.2.2.</strong> SleepCycle</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">7.2.3.</strong> Pillow</div></li></ol></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">8.</strong> 穿着量化</div></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">8.1.</strong> StyleBook</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">8.2.</strong> 简衣橱</div></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">9.</strong> 健康量化</div></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">9.1.</strong> 硬件</div></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">9.1.1.</strong> Apple Watch</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">9.1.2.</strong> 手环</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">9.1.3.</strong> 体脂秤</div></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">9.2.</strong> 软件</div></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">9.2.1.</strong> Apple 健康</div></li></ol></li></ol></li><li class="chapter-item expanded "><div><strong aria-hidden="true">10.</strong> 专业手段</div></li><li><ol class="section"><li class="chapter-item expanded "><div><strong aria-hidden="true">10.1.</strong> 睡眠</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">10.2.</strong> 情绪</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">10.3.</strong> 体脂</div></li><li class="chapter-item expanded "><div><strong aria-hidden="true">10.4.</strong> 体检</div></li></ol></li><li class="chapter-item expanded "><a href="books.html"><strong aria-hidden="true">11.</strong> 推荐书籍</a></li><li class="chapter-item expanded "><a href="contribute.html"><strong aria-hidden="true">12.</strong> 贡献本书</a></li><li class="chapter-item expanded "><div><strong aria-hidden="true">13.</strong> 关于作者</div></li><li><ol class="section"><li class="chapter-item expanded "><a href="authors/bestony.html"><strong aria-hidden="true">13.1.</strong> 白宦成</a></li><li class="chapter-item expanded "><a href="authors/ffeels.html"><strong aria-hidden="true">13.2.</strong> 涂俊杰</a></li><li class="chapter-item expanded "><a href="authors/ghinyang.html"><strong aria-hidden="true">13.3.</strong> GhinYang</a></li></ol></li></ol>
+                <ol class="chapter">
+                    <li class="chapter-item expanded "><a href="https://beian.miit.gov.cn/" target="_blank">京ICP备2022003750号-3</a></li>
+                </ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+
+        </nav>
+
+        <!-- Track and set sidebar scroll position -->
+        <script>
+            var sidebarScrollbox = document.querySelector('#sidebar .sidebar-scrollbox');
+            sidebarScrollbox.addEventListener('click', function(e) {
+                if (e.target.tagName === 'A') {
+                    sessionStorage.setItem('sidebar-scroll', sidebarScrollbox.scrollTop);
+                }
+            }, { passive: true });
+            var sidebarScrollTop = sessionStorage.getItem('sidebar-scroll');
+            sessionStorage.removeItem('sidebar-scroll');
+            if (sidebarScrollTop) {
+                // preserve sidebar scroll position when navigating via links within sidebar
+                sidebarScrollbox.scrollTop = sidebarScrollTop;
+            } else {
+                // scroll sidebar to current active section when navigating via "next/previous chapter" buttons
+                var activeSection = document.querySelector('#sidebar .active');
+                if (activeSection) {
+                    activeSection.scrollIntoView({ block: 'center' });
+                }
+            }
+        </script>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
                     </div>
-                
+
+                    <h1 class="menu-title">自我量化指南 - 给自己的大数据</h1>
+
+                    <div class="right-buttons">
+                        <a href="../print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script>
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="时间块"><a class="header" href="#时间块">时间块</a></h1>
+<blockquote>
+<p>本文作者：白宦成</p>
+</blockquote>
+<p>时间块是由国内的开发者安妮(@anniApp)开发的一款用于时间记录的 App。目前仅提供了 iOS 端的应用，你可以在 App Store 中发现他。</p>
+<h2 id="版本说明"><a class="header" href="#版本说明">版本说明</a></h2>
+<p>时间块目前在 App Store 提供了两个不同的版本，分别是：</p>
+<ul>
+<li><strong>时间块</strong>：时间块是完全功能的版本，售价为 12 元人民币，下文称其为“时间块完整版”</li>
+<li><strong>时间块青春版</strong>：时间块青春版是提供了主要功能的版本，目前是免费提供用户使用的。</li>
+</ul>
+<p>如果你不确定自己能否接受时间块的理念，那么你可以先下载时间块青春版，来进行初步的使用，等你后续确认自己要使用时间块来完成自己的时间量化以后，就可以购买付费版本的时间块了。</p>
+<p><img src="https://postimg.aliavv.com/m1/56ydw9.png" alt="" /></p>
+<p>相比于青春版，时间块应用多提供了以下功能</p>
+<ul>
+<li><strong>数据导出</strong>：在时间块完整版中，你可以将你的数据导出为 CSV、邮件等多种形式，从而在电脑中完成数据的分析，而时间块青春版则不具备数据导出的能力，你只能使用手机端自带的分析进行数据的分析。</li>
+<li><strong>时间目标</strong>：你可以为你的时间设置目标，比如说，设置自己一年需要读书 365 小时。借助这个功能，你可以清楚的看到，当前目标的完成度。</li>
+<li><strong>事件类别的多级分类</strong>：在时间块完整版中，你可以对事件类别设置多级分类，从而可以更好的管理你的事件分类，举个例子，如果你只有娱乐一个分类，对于时间量化的粒度可能太粗了，你可以在娱乐下加入 KTV、打游戏、看电影等不同的二级分类，来进行更细致的时间记录。</li>
+<li><strong>事件内容</strong>：在时间块中，你记录时间是通过事件类别完成的。相比于青春版，完整版的时间块能够在进行时间类别的基础上，进行事件内容的进一步分类，比如说，你设定了事件类别为读书，事件内容可以设置为”自我量化电子书“，这样你可以针对”读自我量化电子书“的时间进行单独的统计。</li>
+<li><strong>印章功能</strong>：在时间块完整版中，我们可以设置不同的时间印章，借助印章，我们可以将一些比较规律的活动组织起来，达到“复制”、"粘贴"的效果。</li>
+<li><strong>更多的设置项目</strong>：时间块完整版相比于青春版，提供了更多的设置项目和更多的功能设定，因此，你可以借助它来完成更加精细化的调整。</li>
+</ul>
+<p><img src="https://postimg.aliavv.com/m1/ly1jxc.jpeg" alt="" /></p>
+<h2 id="时间块的理念"><a class="header" href="#时间块的理念">时间块的理念</a></h2>
+<p>在前面的内容中， 我们介绍了 TimeTrack 和 aTimelogger ，你会发现和前面两者相比，时间块的记录粒度非常的粗，达到了半小时一次记录次，相比于前两者的秒级记录，显然时间块的记录粒度粗的太多了。不过，其作者 Annie 是这样认为的：</p>
+<blockquote>
+<p>精确记录的好处不必多说，但有严重的缺点，那就是<strong>耗费精力</strong>和<strong>难以坚持</strong>。</p>
+<p>而记录时间是个长期坚持才有意义的事，从一个大的时间区间来看，小的误差并不会对统计分析的结果造成多大影响。</p>
+<p>比起精确但却坚持不下去，牺牲一些精度来换得坚持，对不少人来说是一个比较好的折衷方案。</p>
+</blockquote>
+<h2 id="时间块的使用"><a class="header" href="#时间块的使用">时间块的使用</a></h2>
+<h3 id="时间的记录"><a class="header" href="#时间的记录">时间的记录</a></h3>
+<p>在时间块中，时间的记录是非常简单的</p>
+<ol>
+<li>
+<p>在主界面中<strong>点击左侧的时间块</strong>选择时间段；</p>
+</li>
+<li>
+<p><strong>点击右侧的事件类别标签</strong>将其标记。</p>
+</li>
+</ol>
+<video width="800" controls>
+  <source src="https://postimg.aliavv.com/m1/fs4hq4.mp4" type="video/mp4">
+  Your browser does not support HTML video.
+</video>
+<h3 id="在记录时间时添加备注"><a class="header" href="#在记录时间时添加备注">在记录时间时，添加备注</a></h3>
+<p>在记录时间时，我们可以为具体的事件添加备注，从而方便我们在后续进行数据分析时进行处理和后续的事件回顾时查看。</p>
+<ol>
+<li>
+<p>在主界面中<strong>点击左侧的时间块</strong>选择时间段；</p>
+</li>
+<li>
+<p><strong>点击右侧的事件类别标签</strong>将其标记。</p>
+</li>
+<li>
+<p>重新点击标记好的块，点击下方的标注栏，在弹出的备注窗口添加数据。</p>
+</li>
+</ol>
+<video width="800" controls>
+  <source src="https://postimg.aliavv.com/m1/tu43fn.mp4" type="video/mp4">
+  Your browser does not support HTML video.
+</video>
+<h3 id="如何查看统计数据"><a class="header" href="#如何查看统计数据">如何查看统计数据</a></h3>
+<p>在完成了数据的记录以后，就可以进行数据统计和分析了。</p>
+<ol>
+<li>在主界面<strong>点击左上角按钮</strong>或向右滑动，打开侧边栏</li>
+<li>选择侧边栏中的<strong>统计</strong>，就可以进入到统计页面，进行数据的统计分析。</li>
+</ol>
+<video width="800" controls>
+  <source src="https://postimg.aliavv.com/m1/2he1tx.mp4" type="video/mp4">
+  Your browser does not support HTML video.
+</video>
+<h3 id="如何将数据导出到电脑"><a class="header" href="#如何将数据导出到电脑">如何将数据导出到电脑</a></h3>
+<p>除了在手机上进行数据的分析意外，你可以将数据导出到电脑上，借助 Excel、Numbers 等软件进行分析，你也可以自行编写软件进行分析。</p>
+<ol>
+<li>在主界面<strong>点击左上角按钮</strong>或向右滑动，打开侧边栏</li>
+<li>选择侧边栏中的<strong>设置</strong>，就可以进入到设置页面</li>
+<li>在设置页面下拉，找到<strong>数据</strong>—<strong>导出数据为CSV</strong>进行数据的导出</li>
+</ol>
+<video width="800" controls>
+  <source src="https://postimg.aliavv.com/m1/63153o.mp4" type="video/mp4">
+  Your browser does not support HTML video.
+</video>
+<h2 id="推荐阅读"><a class="header" href="#推荐阅读">推荐阅读</a></h2>
+<ul>
+<li><a href="https://sspai.com/post/35226">这款时间统计应用，让你不再为忘记「开始」和「结束」而烦恼：时间块</a></li>
+<li><a href="https://sspai.com/post/45687">用时间块践行「奇特的一生」</a></li>
+<li><a href="https://sspai.com/post/42545">新效率玩儿法：利用“时间块”app规划香港海洋公园剧场表演的行程</a></li>
+</ul>
+<h2 id="总结"><a class="header" href="#总结">总结</a></h2>
+<p>在这一部分中，我简单的介绍了一下时间块的使用，如果你不喜欢时时刻刻的记录，可以试着使用时间块来完成记录。</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="../time/timetrackio.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="../emotion/index.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
             </div>
 
-            
-                
-                <a href="timetrackio.html" class="navigation navigation-prev " aria-label="Previous page: TimeTrack.io(aTimelogger)">
-                    <i class="fa fa-angle-left"></i>
-                </a>
-                
-                
-                <a href="../emotion/readme.html" class="navigation navigation-next " aria-label="Next page: 情绪量化">
-                    <i class="fa fa-angle-right"></i>
-                </a>
-                
-            
-        
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="../time/timetrackio.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="../emotion/index.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+
+
+
+        <script>
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="../elasticlunr.min.js"></script>
+        <script src="../mark.min.js"></script>
+        <script src="../searcher.js"></script>
+
+        <script src="../clipboard.min.js"></script>
+        <script src="../highlight.js"></script>
+        <script src="../book.js"></script>
+
+        <!-- Custom JS scripts -->
+
+
     </div>
-
-    <script>
-        var gitbook = gitbook || [];
-        gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"时间块","level":"1.4.1.2","depth":3,"next":{"title":"情绪量化","level":"1.5","depth":1,"path":"emotion/readme.md","ref":"emotion/readme.md","articles":[{"title":"软件","level":"1.5.1","depth":2,"ref":"","articles":[{"title":"Moodnotes","level":"1.5.1.1","depth":3,"path":"emotion/moodnotes.md","ref":"emotion/moodnotes.md","articles":[]}]}]},"previous":{"title":"TimeTrack.io(aTimelogger)","level":"1.4.1.1","depth":3,"path":"time/timetrackio.md","ref":"time/timetrackio.md","articles":[]},"dir":"ltr"},"config":{"plugins":["theme-comscore","image-captions","ga","anchors","edit-link","sitemap-general","html5-video"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sitemap-general":{"prefix":"https://ziwolianghua.com/"},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"theme-comscore":{},"html5-video":{},"ga":{"configuration":"auto","token":"UA-47834775-24"},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"edit-link":{"label":"参与本书贡献","base":"https://github.com/bestony/self-quantification/edit/master"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"anchors":{},"image-captions":{"align":"left","variable_name":"_pictures"}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{"_pictures":[{"backlink":"index.html#fig1.1.1","level":"1.1","align":"left","list_caption":"Figure: Build Status","alt":"Build Status","nro":1,"url":"https://travis-ci.com/bestony/self-quantification.svg?branch=master","index":1,"caption_template":"Figure: _CAPTION_","label":"Build Status","attributes":{},"skip":false,"key":"1.1.1"},{"backlink":"index.html#fig1.1.2","level":"1.1","align":"left","list_caption":"Figure: 知识共享许可协议","alt":"知识共享许可协议","nro":2,"url":"https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png","index":2,"caption_template":"Figure: _CAPTION_","label":"知识共享许可协议","attributes":{},"skip":false,"key":"1.1.2"},{"backlink":"theory.html#fig1.3.1","level":"1.3","align":"left","list_caption":"Figure: 自我量化工作流","alt":"自我量化工作流","nro":3,"url":"../images/theory-flow.jpeg","index":1,"caption_template":"Figure: _CAPTION_","label":"自我量化工作流","attributes":{},"skip":false,"key":"1.3.1"},{"backlink":"time/timetrackio.html#fig1.4.1.1.1","level":"1.4.1.1","align":"left","list_caption":"Figure: aTimelogger 与 TimeTrack 的对比","alt":"aTimelogger 与 TimeTrack 的对比","nro":4,"url":"../images/time-timetrack-compare.jpg","index":1,"caption_template":"Figure: _CAPTION_","label":"aTimelogger 与 TimeTrack 的对比","attributes":{},"skip":false,"key":"1.4.1.1.1"},{"backlink":"time/timetrackio.html#fig1.4.1.1.2","level":"1.4.1.1","align":"left","list_caption":"Figure: Play Store","alt":"Play Store","nro":5,"url":"../images/time-timetrack-playstore.png","index":2,"caption_template":"Figure: _CAPTION_","label":"Play Store","attributes":{},"skip":false,"key":"1.4.1.1.2"},{"backlink":"time/timetrackio.html#fig1.4.1.1.3","level":"1.4.1.1","align":"left","list_caption":"Figure: App Store","alt":"App Store","nro":6,"url":"../images/time-timetrack-appstore.png","index":3,"caption_template":"Figure: _CAPTION_","label":"App Store","attributes":{},"skip":false,"key":"1.4.1.1.3"},{"backlink":"time/timetrackio.html#fig1.4.1.1.4","level":"1.4.1.1","align":"left","list_caption":"Figure: 我的分类截图","alt":"我的分类截图","nro":7,"url":"../images/time-timetrack-category.png","index":4,"caption_template":"Figure: _CAPTION_","label":"我的分类截图","attributes":{},"skip":false,"key":"1.4.1.1.4"},{"backlink":"time/timetrackio.html#fig1.4.1.1.5","level":"1.4.1.1","align":"left","list_caption":"Figure: 我的分类层级对应关系","alt":"我的分类层级对应关系","nro":8,"url":"../images/time-timetrack-relantion.jpg","index":5,"caption_template":"Figure: _CAPTION_","label":"我的分类层级对应关系","attributes":{},"skip":false,"key":"1.4.1.1.5"},{"backlink":"time/timetrackio.html#fig1.4.1.1.6","level":"1.4.1.1","align":"left","list_caption":"Figure: 活动定义表","alt":"活动定义表","nro":9,"url":"../images/time-timetrack-define.jpg","index":6,"caption_template":"Figure: _CAPTION_","label":"活动定义表","attributes":{},"skip":false,"key":"1.4.1.1.6"},{"backlink":"time/timetrackio.html#fig1.4.1.1.7","level":"1.4.1.1","align":"left","list_caption":"Figure: 时薪走势","alt":"时薪走势","nro":10,"url":"../images/time-timetrack-pay.png","index":7,"caption_template":"Figure: _CAPTION_","label":"时薪走势","attributes":{},"skip":false,"key":"1.4.1.1.7"},{"backlink":"time/timetrackio.html#fig1.4.1.1.8","level":"1.4.1.1","align":"left","list_caption":"Figure: 时薪对比","alt":"时薪对比","nro":11,"url":"../images/time-timetrack-pay-compare.png","index":8,"caption_template":"Figure: _CAPTION_","label":"时薪对比","attributes":{},"skip":false,"key":"1.4.1.1.8"},{"backlink":"time/timetrackio.html#fig1.4.1.1.9","level":"1.4.1.1","align":"left","list_caption":"Figure: TimeTrack 用时","alt":"TimeTrack 用时","nro":12,"url":"../images/time-timetrack-phonescreen.png","index":9,"caption_template":"Figure: _CAPTION_","label":"TimeTrack 用时","attributes":{},"skip":false,"key":"1.4.1.1.9"},{"backlink":"time/timeblock.html#fig1.4.1.2.1","level":"1.4.1.2","align":"left","list_caption":"Figure: Apple store 内搜索“时间块”","alt":"Apple store 内搜索“时间块”","nro":13,"url":"../images/time-timeblock-appstore.png","index":1,"caption_template":"Figure: _CAPTION_","label":"Apple store 内搜索“时间块”","attributes":{},"skip":false,"key":"1.4.1.2.1"},{"backlink":"time/timeblock.html#fig1.4.1.2.2","level":"1.4.1.2","align":"left","list_caption":"Figure: 左侧为完整版时间块，右侧为青春版时间块","alt":"左侧为完整版时间块，右侧为青春版时间块","nro":14,"url":"../images/time-timeblock-compare.jpeg","index":2,"caption_template":"Figure: _CAPTION_","label":"左侧为完整版时间块，右侧为青春版时间块","attributes":{},"skip":false,"key":"1.4.1.2.2"},{"backlink":"emotion/moodnotes.html#fig1.5.1.1.1","level":"1.5.1.1","align":"left","list_caption":"Figure: Moodnotes 的七个等级","alt":"Moodnotes 的七个等级","nro":15,"url":"../images/emotion-moodnotes-level.jpeg","index":1,"caption_template":"Figure: _CAPTION_","label":"Moodnotes 的七个等级","attributes":{},"skip":false,"key":"1.5.1.1.1"},{"backlink":"emotion/moodnotes.html#fig1.5.1.1.2","level":"1.5.1.1","align":"left","list_caption":"Figure: Moodnotes 的 Moodtrends 功能","alt":"Moodnotes 的 Moodtrends 功能","nro":16,"url":"../images/emotion-moodnotes-moodtrends.png","index":2,"caption_template":"Figure: _CAPTION_","label":"Moodnotes 的 Moodtrends 功能","attributes":{},"skip":false,"key":"1.5.1.1.2"},{"backlink":"emotion/moodnotes.html#fig1.5.1.1.3","level":"1.5.1.1","align":"left","list_caption":"Figure: Moodnotes 的 Insight 功能","alt":"Moodnotes 的 Insight 功能","nro":17,"url":"../images/emotion-moodnotes-insight.jpeg","index":3,"caption_template":"Figure: _CAPTION_","label":"Moodnotes 的 Insight 功能","attributes":{},"skip":false,"key":"1.5.1.1.3"},{"backlink":"eating/waterreminder.html#fig1.6.2.1.1","level":"1.6.2.1","align":"left","list_caption":"Figure: WaterReminder 设置饮水目标","alt":"WaterReminder 设置饮水目标","nro":18,"url":"../images/eating-waterreminder-init.jpeg","index":1,"caption_template":"Figure: _CAPTION_","label":"WaterReminder 设置饮水目标","attributes":{},"skip":false,"key":"1.6.2.1.1"},{"backlink":"eating/waterreminder.html#fig1.6.2.1.2","level":"1.6.2.1","align":"left","list_caption":"Figure: WaterReminder 添加饮水记录","alt":"WaterReminder 添加饮水记录","nro":19,"url":"../images/eating-waterreminder-add-record.jpeg","index":2,"caption_template":"Figure: _CAPTION_","label":"WaterReminder 添加饮水记录","attributes":{},"skip":false,"key":"1.6.2.1.2"},{"backlink":"eating/waterreminder.html#fig1.6.2.1.3","level":"1.6.2.1","align":"left","list_caption":"Figure: 添加不同大小的杯子","alt":"添加不同大小的杯子","nro":20,"url":"../images/eating-waterreminder-add-cup.jpeg","index":3,"caption_template":"Figure: _CAPTION_","label":"添加不同大小的杯子","attributes":{},"skip":false,"key":"1.6.2.1.3"},{"backlink":"eating/waterreminder.html#fig1.6.2.1.4","level":"1.6.2.1","align":"left","list_caption":"Figure: 设置喝水提醒","alt":"设置喝水提醒","nro":21,"url":"../images/eating-waterreminder-alert.jpeg","index":4,"caption_template":"Figure: _CAPTION_","label":"设置喝水提醒","attributes":{},"skip":false,"key":"1.6.2.1.4"},{"backlink":"sleep/autosleep.html#fig1.7.2.1.1","level":"1.7.2.1","align":"left","list_caption":"Figure: AutoSleep 的熄灯界面","alt":"AutoSleep 的熄灯界面","nro":22,"url":"../images/sleep-autosleep-watch-interface.png","index":1,"caption_template":"Figure: _CAPTION_","label":"AutoSleep 的熄灯界面","attributes":{},"skip":false,"key":"1.7.2.1.1"},{"backlink":"sleep/autosleep.html#fig1.7.2.1.2","level":"1.7.2.1","align":"left","list_caption":"Figure: 睡眠模块","alt":"睡眠模块","nro":23,"url":"../images/sleep-autosleep-today-block1.jpeg","index":2,"caption_template":"Figure: _CAPTION_","label":"睡眠模块","attributes":{},"skip":false,"key":"1.7.2.1.2"},{"backlink":"sleep/autosleep.html#fig1.7.2.1.3","level":"1.7.2.1","align":"left","list_caption":"Figure: 睡眠时长","alt":"睡眠时长","nro":24,"url":"../images/sleep-autosleep-today-block2.jpeg","index":3,"caption_template":"Figure: _CAPTION_","label":"睡眠时长","attributes":{},"skip":false,"key":"1.7.2.1.3"},{"backlink":"sleep/autosleep.html#fig1.7.2.1.4","level":"1.7.2.1","align":"left","list_caption":"Figure: 睡眠评价","alt":"睡眠评价","nro":25,"url":"../images/sleep-autosleep-today-block3.jpeg","index":4,"caption_template":"Figure: _CAPTION_","label":"睡眠评价","attributes":{},"skip":false,"key":"1.7.2.1.4"},{"backlink":"sleep/autosleep.html#fig1.7.2.1.5","level":"1.7.2.1","align":"left","list_caption":"Figure: 就寝时间","alt":"就寝时间","nro":26,"url":"../images/sleep-autosleep-today-block4.jpeg","index":5,"caption_template":"Figure: _CAPTION_","label":"就寝时间","attributes":{},"skip":false,"key":"1.7.2.1.5"},{"backlink":"sleep/autosleep.html#fig1.7.2.1.6","level":"1.7.2.1","align":"left","list_caption":"Figure: 就绪状态","alt":"就绪状态","nro":27,"url":"../images/sleep-autosleep-today-block5.jpeg","index":6,"caption_template":"Figure: _CAPTION_","label":"就绪状态","attributes":{},"skip":false,"key":"1.7.2.1.6"},{"backlink":"sleep/autosleep.html#fig1.7.2.1.7","level":"1.7.2.1","align":"left","list_caption":"Figure: 熄灯时间","alt":"熄灯时间","nro":28,"url":"../images/sleep-autosleep-today-block6.jpeg","index":7,"caption_template":"Figure: _CAPTION_","label":"熄灯时间","attributes":{},"skip":false,"key":"1.7.2.1.7"},{"backlink":"authors/bestony.html#fig1.14.1.1","level":"1.14.1","align":"left","list_caption":"Figure: 微信二维码","alt":"微信二维码","nro":29,"url":"https://postimg.aliavv.com/mbp/kr6f7.jpg","index":1,"caption_template":"Figure: _CAPTION_","label":"微信二维码","attributes":{},"skip":false,"key":"1.14.1.1"}]},"title":"自我量化指南","links":{"sidebar":{"联系作者":"mailto:xiqingongzi+lianghua@gmail.com"}},"gitbook":"*","description":"自我量化路上的指南针"},"file":{"path":"time/timeblock.md","mtime":"2021-01-22T18:03:18.871Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2021-01-22T18:04:13.459Z"},"basePath":"..","book":{"language":""}});
-        });
-    </script>
-</div>
-
-        
-    <script src="../gitbook/gitbook.js"></script>
-    <script src="../gitbook/theme.js"></script>
-    
-        
-        <script src="../gitbook/gitbook-plugin-ga/plugin.js"></script>
-        
-    
-        
-        <script src="../gitbook/gitbook-plugin-edit-link/plugin.js"></script>
-        
-    
-        
-        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
-        
-    
-        
-        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
-        
-    
-        
-        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
-        
-    
-        
-        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
-        
-    
-        
-        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
-        
-    
-        
-        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
-        
-    
-        
-        <script src="../gitbook/gitbook-plugin-theme-comscore/test.js"></script>
-        
-    
-
     </body>
 </html>
-

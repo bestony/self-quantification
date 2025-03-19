@@ -13,11 +13,8 @@ jobs:
       group: ${{ github.workflow }}-${{ github.ref }}
     steps:
       - uses: actions/checkout@v2
-
-      - name: Setup mdBook
-        uses: peaceiris/actions-mdbook@v2
-        with:
-          mdbook-version: 'latest'
-
-      - run: mdbook build
-      
+      - uses: actions-rust-lang/setup-rust-toolchain@v1
+      - name: install mdbook
+        run: cargo install mdbook mdbook-linkcheck
+      - name: Build with mdBook
+        run: mdbook build
